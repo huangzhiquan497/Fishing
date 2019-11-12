@@ -1,0 +1,4127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2524e1cf21af4b646b620ee3e5df2eac, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex:
+  - assetGUID: fa669b014a6819f4bbda1540deaa9386
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 5628e330635379e4797dc4e236802d7e
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: a25c635c56e14574db90e16e12ce5599
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 693d6e84bcf5ccc459e5a4af341c2d90
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6145b5632aed35c4cbbe460f2283e810
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex:
+  - assetGUID: 06c134e5e7184574486b5544647184dc
+    dataGUID: 0a29f078b5c559541bd9dab13bca4424
+    managed: 0
+    loadable: 0
+  - assetGUID: 31667a71e6a720946983087e5d3a5e32
+    dataGUID: e366df0e15623ad4090ad28d2557b20c
+    managed: 0
+    loadable: 0
+  - assetGUID: 35a1992251c83b049a3f5bc648fffe94
+    dataGUID: 18d6fa66a7eb25d4594b9cef58bd5e2f
+    managed: 0
+    loadable: 0
+  - assetGUID: 5d127e0601863d64289a99765ad4e8e3
+    dataGUID: 8628f4d0566a27645a4d722b0d595375
+    managed: 0
+    loadable: 0
+  - assetGUID: b6c66207ec22dae4eb60c72fea9d9cc8
+    dataGUID: 1f2c35bb19f6356448433f754eae0467
+    managed: 0
+    loadable: 0
+  - assetGUID: 6906589dc7755524fba81b341ed09fb3
+    dataGUID: 5395c93af77eeb142875fb05cca763f2
+    managed: 0
+    loadable: 0
+  - assetGUID: b3089ef2d435da449a2a33e9fb11bd48
+    dataGUID: f3d84013fc6d0a8469c37ae9396c249a
+    managed: 0
+    loadable: 0
+  - assetGUID: 102f9c17c562cdd4fbe9fd412467b333
+    dataGUID: 9caff10ea4e12f2479bd93ff9c3ff3ca
+    managed: 0
+    loadable: 0
+  - assetGUID: d97221c6d8e47d64e8b73c7434e81a5f
+    dataGUID: c5ed50f8acb24a84fabc8ab38b2d037b
+    managed: 0
+    loadable: 0
+  - assetGUID: 0f99547c471faca4dbc9ff03a1eeba80
+    dataGUID: d11f5c1b43d9d56458245ae912d77b36
+    managed: 0
+    loadable: 0
+  - assetGUID: af802aab443a7c54788f5e0882f057b1
+    dataGUID: b126abdac072cc543a39413a49a6aaa8
+    managed: 0
+    loadable: 0
+  - assetGUID: 828b41983b5d5cd46a97421da732d92b
+    dataGUID: c81d9cad83c75f1459f6b53ff14393b8
+    managed: 0
+    loadable: 0
+  - assetGUID: 37c99ce09e8c63b4ba4246f3dd31973e
+    dataGUID: 02f902083ba5eb444b02c0dab2540deb
+    managed: 0
+    loadable: 0
+  - assetGUID: 95dab49b86e516345bedfc504747fef9
+    dataGUID: 32d634e4217f6d249873a4ac776912e1
+    managed: 0
+    loadable: 0
+  - assetGUID: fe2bcc920acb56a439eb45dc3cfb0f77
+    dataGUID: b1d6aa2590416a04cac44796282b817b
+    managed: 0
+    loadable: 0
+  - assetGUID: acfc8d573e0c29f45965c80253eb7689
+    dataGUID: 904d1a6850ea01c46aa7d12cc1a2ea8a
+    managed: 0
+    loadable: 0
+  spriteCollectionIndex:
+  - name: Backstage1
+    spriteCollectionGUID: 3d61610e79f732948b834bec6d28401d
+    spriteCollectionDataGUID: dadf27d2972aff243a433cab1bb3946c
+    spriteNames:
+    - Bs_HintPot_Green
+    - Backstage_MainBG_Bar
+    - Backstage_MainBG_Blackhalf
+    - Backstage_MainBG_White
+    - Bs_HintPot_Red
+    - Bs_HintPot_Yellow
+    - Backstage_RedRect
+    - Bs_HintPot_Blue
+    - Backstage_DecodeInputer
+    - OptionItemBack
+    - cursor_option_sheet/0
+    - cursor_option_sheet/1
+    - cursor_option_sheet/2
+    - GunLayoutBG
+    - GunLayoutRect
+    spriteTextureGUIDs:
+    - 16e3093a2d79afd41a385166a6a9941a
+    - c98cbe736471bc54f97dff09319fa76b
+    - 4d85be6713fe6ed4db6a36792a964373
+    - e3148fc6ce552f14499b6fcf4fd98891
+    - 7464082c04f527f4ca1e7fd321d55cee
+    - 8cb42f7612ce02a4b9baf1bff6e700cc
+    - 463bd29e9e6d6994b9453277f348e637
+    - 435dbbb3c92d0e54cad0bd5ee68acbf2
+    - 79d518d891e91964b92b622d747b1c99
+    - 026f403475651b34991a6dd57db0a040
+    - 31348e49eedc93d44987cba68951173c
+    - 31348e49eedc93d44987cba68951173c
+    - 31348e49eedc93d44987cba68951173c
+    - f2939164c6fd1894ba17ce0f2887a73f
+    - 2587f45665d36eb4dafe46edba267217
+    spriteTextureTimeStamps:
+    - 1400082088.57879
+    - 1400082088.70359
+    - 1400082088.57879
+    - 1400082088.71919
+    - 1400082088.71919
+    - 1400082088.68799
+    - 1400082088.59439
+    - 1400082088.53199
+    - 1400082088.70359
+    - 1400082088.70359
+    - 1400082088.59439
+    - 1400082088.59439
+    - 1400082088.59439
+    - 1400082088.68799
+    - 1400082088.71919
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BGPrize
+    spriteCollectionGUID: a12e2f721b6493449b26a6dd15b96eb4
+    spriteCollectionDataGUID: 7befefeded897e94f99fcdfa377e0055
+    spriteNames:
+    - highCreditTip_6
+    - highCreditTip_0
+    - highCreditTip_7
+    - highCreditTip_5
+    - highCreditTip_9
+    - highCreditTip_3
+    - highCreditTip_2
+    - highCreditTip_4
+    - highCreditTip_8
+    - highCreditTip_1
+    spriteTextureGUIDs:
+    - 820e22f050f3e1d4eade821ca4108c18
+    - 51a23d038fc7a004b836273c104af1d9
+    - e47a8ce56f681d245852de9db92ee869
+    - 0dc7264628834e74b9b03ffe7dbcf647
+    - e0feb8082e7d7ba4da19f3b16df4fb25
+    - 3b8a35b9d4fec7f4dae25ca7c7fd7e05
+    - cd1a581a68c94944796c2e2e620e60e3
+    - 98fd296ab70963043b3ca42f49b7f8ac
+    - 05a8355b775ba1f4380a75988b3d2f0b
+    - 0779954d0a8dc1c49a82563e773c13bf
+    spriteTextureTimeStamps:
+    - 1400082087.73539
+    - 1400082088.18779
+    - 1400082087.96939
+    - 1400082088.39159
+    - 1400082088.43839
+    - 1400082087.96939
+    - 1400082087.70419
+    - 1400082088.18779
+    - 1400082088.23459
+    - 1400082088.36039
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CardTarget
+    spriteCollectionGUID: dfa8b7c4c09156147991d80b54f09f43
+    spriteCollectionDataGUID: 7f5d25d6ea4d5d245b7f402cac048a24
+    spriteNames:
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u5C0F\u4E11\u9C7C"
+    - "\u7784\u51C6\u5361_\u795E\u4ED9\u9C7C"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u5927\u773C"
+    - "\u7784\u51C6\u5361_\u84DD\u5E95\u76D8\u9F99"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u523A\u732C"
+    - "\u7784\u51C6\u5361_\u8001\u864EX3"
+    - "\u7784\u51C6\u5361_\u8D85\u7EA7\u70B8\u5F39"
+    - "\u7784\u51C6\u5361_\u5B54\u96C0\u9C7C"
+    - "\u7784\u51C6\u5361_\u9F99X3"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u5C0F\u9EC4\u9C7C"
+    - "\u7784\u51C6\u5361_\u5F69\u4E91"
+    - "\u7784\u51C6\u5361_\u91D1\u9CA8"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u87CB\u87C0\u9C7C"
+    - "\u7784\u51C6\u5361_\u4E4C\u9F9F"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u4E4C\u9F9F"
+    - "\u7784\u51C6\u5361_\u5B9A\u5C4F\u70B8\u5F39"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u5C0F\u9752\u9C7C"
+    - "\u7784\u51C6\u5361_\u9B54\u9B3C\u9C7C"
+    - "\u7784\u51C6\u5361_\u67AA\u9C7C"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u706F\u7B3C"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u77F3\u6591"
+    - "\u7784\u51C6\u5361_\u540C\u7C7B\u5C0F\u84DD\u9C7C"
+    - "\u7784\u51C6\u5361_\u94F6\u5E95\u76D8\u9F99"
+    - "\u7784\u51C6\u5361_\u9A6CX3"
+    - "\u7784\u51C6\u5361_\u8774\u8776"
+    - "\u7784\u51C6\u5361_\u91D1\u5E95\u76D8\u9F99"
+    spriteTextureGUIDs:
+    - d3452ac0603240e4c9b828ad24eb034e
+    - 1d76ac3150135b546b577e85ddf07f23
+    - 1e3873f23aa526141bea7cc988bd8741
+    - 60109d03d6cb12b4e9c4b94d86d03a4b
+    - 35ce84b3ff6023a40add11f2c607294c
+    - 527906b4b37da0541a1f87fef2e6eb2e
+    - 086dd64549fd6f9438deccd509b27c6d
+    - c72c3755e241001439afbe691cd41c70
+    - d8141ef59c4ca254db322745b850b132
+    - a0eb0c1796b199c4e88cb20413df382e
+    - 49af0e78405dfd74eae750f1ab718b89
+    - 1e35dc49c0c831643902ac173cefae25
+    - 306cc0f91dd28c042891ae8b82d38376
+    - 302abb1a09e6e0f41852513c256ce20a
+    - d32ea16ac17a62247847ce1b55afa0b1
+    - 4e8d936a6977b5f41b476f2178604103
+    - ebe1011b8e187d946bb44047ec9e6e35
+    - 29d1fe0ca24794647a01951697087fd6
+    - 4d11105ca4f0100439f68c6b26de1806
+    - 358ee49cc61a3f54f898dfe9ac9ab27c
+    - 5477412da6c587c4fb832c8364829219
+    - c86f161e3a071bc409b7962c1238b8c1
+    - 0814fd4e6ed0c574d961030cb2588588
+    - a4f362fe9e5cf3b4a97a1d7297c8ac58
+    - 4279cf5f63a469042bc19810937dae06
+    - c071ba8f828b8ee46bd17a498c0b543a
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Fish3
+    spriteCollectionGUID: a70ba32813ff3b4408b72f12d706254c
+    spriteCollectionDataGUID: 440ad9b852a2f6e4aa8c1521cae71828
+    spriteNames:
+    - "\u4E4C\u9F9F_0"
+    - "\u4E4C\u9F9F_1"
+    - "\u4E4C\u9F9F_2"
+    - "\u4E4C\u9F9F_3"
+    - "\u4E4C\u9F9F_4"
+    - "\u4E4C\u9F9F_5"
+    - "\u4E4C\u9F9F_6"
+    - "\u4E4C\u9F9F_7"
+    - "\u4E4C\u9F9F\u6B7B\u4EA1_0"
+    - "\u4E4C\u9F9F\u6B7B\u4EA1_1"
+    - "\u4E4C\u9F9F\u6B7B\u4EA1_2"
+    - "\u4E4C\u9F9F\u6B7B\u4EA1_3"
+    - "\u4E4C\u9F9F\u6B7B\u4EA1_4"
+    - "\u523A\u732C\u9C7C_0"
+    - "\u523A\u732C\u9C7C_1"
+    - "\u523A\u732C\u9C7C_2"
+    - "\u523A\u732C\u9C7C_3"
+    - "\u523A\u732C\u9C7C_4"
+    - "\u523A\u732C\u9C7C_5"
+    - "\u523A\u732C\u9C7C_6"
+    - "\u523A\u732C\u9C7C_7"
+    - "\u523A\u732C\u9C7C_8"
+    - "\u523A\u732C\u9C7C_9"
+    - "\u523A\u732C\u9C7C\u6B7B\u4EA1_0"
+    - "\u523A\u732C\u9C7C\u6B7B\u4EA1_1"
+    - "\u523A\u732C\u9C7C\u6B7B\u4EA1_2"
+    - "\u5927\u773C\u775B\u9C7C_0"
+    - "\u5927\u773C\u775B\u9C7C_1"
+    - "\u5927\u773C\u775B\u9C7C_2"
+    - "\u5927\u773C\u775B\u9C7C_3"
+    - "\u5927\u773C\u775B\u9C7C_4"
+    - "\u5927\u773C\u775B\u9C7C_5"
+    - "\u5927\u773C\u775B\u9C7C_6"
+    - "\u5927\u773C\u775B\u9C7C_7"
+    - "\u5927\u773C\u775B\u9C7C_8"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_0"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_1"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_2"
+    - "\u5B54\u96C0\u9C7C_0"
+    - "\u5B54\u96C0\u9C7C_1"
+    - "\u5B54\u96C0\u9C7C_2"
+    - "\u5B54\u96C0\u9C7C_3"
+    - "\u5B54\u96C0\u9C7C_4"
+    - "\u5B54\u96C0\u9C7C_5"
+    - "\u5B54\u96C0\u9C7C_6"
+    - "\u5B54\u96C0\u9C7C_7"
+    - "\u5B54\u96C0\u9C7C\u6B7B\u4EA1_3"
+    - "\u67AA\u9C7C_9"
+    - "\u4E4C\u9F9F\u6B7B\u4EA1_6"
+    - "\u5C0F\u4E11\u9C7C_7"
+    - "\u5B54\u96C0\u9C7C\u6B7B\u4EA1_0"
+    - "\u5B54\u96C0\u9C7C\u6B7B\u4EA1_1"
+    - "\u5B54\u96C0\u9C7C\u6B7B\u4EA1_2"
+    - "\u5C0F\u4E11\u9C7C_0"
+    - "\u5C0F\u4E11\u9C7C_1"
+    - "\u5C0F\u4E11\u9C7C_2"
+    - "\u5C0F\u4E11\u9C7C_3"
+    - "\u5C0F\u4E11\u9C7C_4"
+    - "\u5C0F\u4E11\u9C7C_5"
+    - "\u5C0F\u4E11\u9C7C\u6B7B\u4EA1_0"
+    - "\u5C0F\u4E11\u9C7C\u6B7B\u4EA1_1"
+    - "\u5C0F\u4E11\u9C7C\u6B7B\u4EA1_2"
+    - "\u5C0F\u84DD\u9C7C_0"
+    - "\u5C0F\u84DD\u9C7C_1"
+    - "\u5C0F\u84DD\u9C7C_2"
+    - "\u5C0F\u84DD\u9C7C_3"
+    - "\u5C0F\u84DD\u9C7C_4"
+    - "\u5C0F\u84DD\u9C7C_5"
+    - "\u5C0F\u84DD\u9C7C_6"
+    - "\u5C0F\u84DD\u9C7C_7"
+    - "\u5C0F\u84DD\u9C7C\u6B7B\u4EA1_4"
+    - "\u5C0F\u84DD\u9C7C\u6B7B\u4EA1_0"
+    - "\u5C0F\u84DD\u9C7C\u6B7B\u4EA1_1"
+    - "\u5C0F\u84DD\u9C7C\u6B7B\u4EA1_2"
+    - "\u5C0F\u9752\u9C7C_0"
+    - "\u5C0F\u9752\u9C7C_1"
+    - "\u5C0F\u9752\u9C7C_2"
+    - "\u5C0F\u9752\u9C7C_3"
+    - "\u5C0F\u9752\u9C7C_4"
+    - "\u5C0F\u9752\u9C7C_5"
+    - "\u5C0F\u9752\u9C7C\u6B7B\u4EA1_0"
+    - "\u5C0F\u9752\u9C7C\u6B7B\u4EA1_1"
+    - "\u5C0F\u9EC4\u9C7C_0"
+    - "\u5C0F\u9EC4\u9C7C_1"
+    - "\u5C0F\u9EC4\u9C7C_2"
+    - "\u5C0F\u9EC4\u9C7C_3"
+    - "\u5C0F\u9EC4\u9C7C_4"
+    - "\u5C0F\u9EC4\u9C7C_5"
+    - "\u5C0F\u9EC4\u9C7C_6"
+    - "\u5C0F\u9EC4\u9C7C_7"
+    - "\u5C0F\u9EC4\u9C7C_8"
+    - "\u5C0F\u9EC4\u9C7C_9"
+    - "\u5C0F\u9EC4\u9C7C\u6B7B\u4EA1_0"
+    - "\u5C0F\u9EC4\u9C7C\u6B7B\u4EA1_1"
+    - "\u67AA\u9C7C_0"
+    - "\u67AA\u9C7C_1"
+    - "\u67AA\u9C7C_2"
+    - "\u67AA\u9C7C_3"
+    - "\u67AA\u9C7C_4"
+    - "\u67AA\u9C7C_5"
+    - "\u67AA\u9C7C_6"
+    - "\u67AA\u9C7C_7"
+    - "\u67AA\u9C7C_8"
+    - "\u67AA\u9C7C\u6B7B\u4EA1_0"
+    - "\u67AA\u9C7C\u6B7B\u4EA1_1"
+    - "\u67AA\u9C7C\u6B7B\u4EA1_2"
+    - "\u5F69\u4E91_0"
+    - "\u5F69\u4E91_1"
+    - "\u5F69\u4E91_2"
+    - "\u5F69\u4E91_3"
+    - "\u5F69\u4E91_4"
+    - "\u5F69\u4E91_5"
+    - "\u5F69\u4E91_6"
+    - "\u5927\u773C\u775B\u9C7C_9"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_0"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_1"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_2"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_3"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_4"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_5"
+    - "\u706F\u7B3C\u9C7C_5"
+    - "\u706F\u7B3C\u9C7C_2"
+    - "\u706F\u7B3C\u9C7C_9"
+    - "\u706F\u7B3C\u9C7C_8"
+    - "\u706F\u7B3C\u9C7C_3"
+    - "\u706F\u7B3C\u9C7C_6"
+    - "\u706F\u7B3C\u9C7C_0"
+    - "\u706F\u7B3C\u9C7C_7"
+    - "\u5F69\u4E91_12"
+    - "\u5F69\u4E91_14"
+    - "\u5F69\u4E91_11"
+    - "\u706F\u7B3C\u9C7C_4"
+    - "\u706F\u7B3C\u9C7C_1"
+    - "\u706F\u7B3C\u9C7C\u6B7B\u4EA1_1"
+    - "\u706F\u7B3C\u9C7C\u6B7B\u4EA1_2"
+    - "\u706F\u7B3C\u9C7C\u6B7B\u4EA1_3"
+    - "\u706F\u7B3C\u9C7C\u6B7B\u4EA1_0"
+    - "\u795E\u4ED9\u9C7C_22"
+    - "\u795E\u4ED9\u9C7C_15"
+    - "\u795E\u4ED9\u9C7C_13"
+    - "\u795E\u4ED9\u9C7C_18"
+    - "\u795E\u4ED9\u9C7C_11"
+    - "\u795E\u4ED9\u9C7C_0"
+    - "\u795E\u4ED9\u9C7C_10"
+    - "\u795E\u4ED9\u9C7C_1"
+    - "\u795E\u4ED9\u9C7C_7"
+    - "\u4E4C\u9F9F\u6B7B\u4EA1_5"
+    - "\u795E\u4ED9\u9C7C_2"
+    - "\u795E\u4ED9\u9C7C_3"
+    - "\u795E\u4ED9\u9C7C\u6B7B\u4EA1_0"
+    - "\u795E\u4ED9\u9C7C_17"
+    - "\u795E\u4ED9\u9C7C_16"
+    - "\u795E\u4ED9\u9C7C\u6B7B\u4EA1_1"
+    - "\u795E\u4ED9\u9C7C_23"
+    - "\u795E\u4ED9\u9C7C_19"
+    - "\u795E\u4ED9\u9C7C\u6B7B\u4EA1_3"
+    - "\u795E\u4ED9\u9C7C_12"
+    - "\u5F69\u4E91_9"
+    - "\u5F69\u4E91_10"
+    - "\u5F69\u4E91_13"
+    - "\u5F69\u4E91_7"
+    - "\u5F69\u4E91_8"
+    - "\u523A\u732C\u9C7C_21"
+    - "\u523A\u732C\u9C7C_11"
+    - "\u523A\u732C\u9C7C_12"
+    - "\u523A\u732C\u9C7C_14"
+    - "\u523A\u732C\u9C7C_19"
+    - "\u523A\u732C\u9C7C_22"
+    - "\u523A\u732C\u9C7C_18"
+    - "\u523A\u732C\u9C7C_13"
+    - "\u523A\u732C\u9C7C_20"
+    - "\u523A\u732C\u9C7C_16"
+    - "\u523A\u732C\u9C7C_17"
+    - "\u523A\u732C\u9C7C_15"
+    - "\u4E4C\u9F9F_11"
+    - "\u523A\u732C\u9C7C_10"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_9"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_8"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_6"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_7"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_11"
+    - "\u523A\u732C\u9C7C\u7FFB\u8EAB_10"
+    - "\u5927\u773C\u775B\u9C7C_10"
+    - "\u5927\u773C\u775B\u9C7C_11"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_9"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_7"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_3"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_8"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_5"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_6"
+    - "\u5927\u773C\u775B\u9C7C\u6B7B\u4EA1_4"
+    - "\u5C0F\u4E11\u9C7C_6"
+    - "\u5C0F\u4E11\u9C7C_8"
+    - "\u5C0F\u4E11\u9C7C\u6B7B\u4EA1_5"
+    - "\u5C0F\u4E11\u9C7C\u6B7B\u4EA1_4"
+    - "\u5C0F\u4E11\u9C7C\u6B7B\u4EA1_3"
+    - "\u5C0F\u9EC4\u9C7C_15"
+    - "\u5C0F\u9EC4\u9C7C_10"
+    - "\u5C0F\u9EC4\u9C7C_14"
+    - "\u5C0F\u9EC4\u9C7C_12"
+    - "\u5C0F\u9EC4\u9C7C_13"
+    - "\u5C0F\u9EC4\u9C7C_11"
+    - "\u5C0F\u9EC4\u9C7C\u6B7B\u4EA1_2"
+    - "\u5C0F\u84DD\u9C7C\u6B7B\u4EA1_5"
+    - "\u5C0F\u84DD\u9C7C\u6B7B\u4EA1_3"
+    - "\u5C0F\u9752\u9C7C_9"
+    - "\u5C0F\u9752\u9C7C_7"
+    - "\u5C0F\u9752\u9C7C_6"
+    - "\u5C0F\u9752\u9C7C_8"
+    - "\u5C0F\u9752\u9C7C\u6B7B\u4EA1_2"
+    - "\u795E\u4ED9\u9C7C_5"
+    - "\u4E4C\u9F9F_15"
+    - "\u4E4C\u9F9F_10"
+    - "\u4E4C\u9F9F_13"
+    - "\u4E4C\u9F9F_12"
+    - "\u4E4C\u9F9F_9"
+    - "\u4E4C\u9F9F_8"
+    - "\u4E4C\u9F9F_14"
+    - "\u5927\u773C\u775B\u9C7C_14"
+    - "\u5927\u773C\u775B\u9C7C_16"
+    - "\u5927\u773C\u775B\u9C7C_23"
+    - "\u5927\u773C\u775B\u9C7C_18"
+    - "\u5927\u773C\u775B\u9C7C_13"
+    - "\u5927\u773C\u775B\u9C7C_12"
+    - "\u5927\u773C\u775B\u9C7C_17"
+    - "\u5927\u773C\u775B\u9C7C_20"
+    - "\u5927\u773C\u775B\u9C7C_21"
+    - "\u5927\u773C\u775B\u9C7C_22"
+    - "\u5927\u773C\u775B\u9C7C_19"
+    - "\u5927\u773C\u775B\u9C7C_15"
+    - "\u5B54\u96C0\u9C7C_14"
+    - "\u5B54\u96C0\u9C7C_21"
+    - "\u5B54\u96C0\u9C7C_11"
+    - "\u5B54\u96C0\u9C7C_17"
+    - "\u5B54\u96C0\u9C7C_13"
+    - "\u5B54\u96C0\u9C7C_15"
+    - "\u5B54\u96C0\u9C7C_20"
+    - "\u5B54\u96C0\u9C7C_23"
+    - "\u5B54\u96C0\u9C7C_19"
+    - "\u5B54\u96C0\u9C7C_9"
+    - "\u5B54\u96C0\u9C7C_16"
+    - "\u5B54\u96C0\u9C7C_8"
+    - "\u5B54\u96C0\u9C7C_18"
+    - "\u5B54\u96C0\u9C7C_10"
+    - "\u5B54\u96C0\u9C7C_12"
+    - "\u5B54\u96C0\u9C7C_22"
+    - "\u5C0F\u4E11\u9C7C_21"
+    - "\u5C0F\u4E11\u9C7C_12"
+    - "\u5C0F\u4E11\u9C7C_16"
+    - "\u5C0F\u4E11\u9C7C_15"
+    - "\u5C0F\u4E11\u9C7C_23"
+    - "\u5C0F\u4E11\u9C7C_18"
+    - "\u5C0F\u4E11\u9C7C_24"
+    - "\u5C0F\u4E11\u9C7C_13"
+    - "\u5C0F\u4E11\u9C7C_17"
+    - "\u5C0F\u4E11\u9C7C_22"
+    - "\u5C0F\u4E11\u9C7C_10"
+    - "\u5C0F\u4E11\u9C7C_14"
+    - "\u5C0F\u4E11\u9C7C_9"
+    - "\u5C0F\u4E11\u9C7C_20"
+    - "\u5C0F\u4E11\u9C7C_11"
+    - "\u5C0F\u4E11\u9C7C_19"
+    - "\u5C0F\u84DD\u9C7C_13"
+    - "\u5C0F\u84DD\u9C7C_19"
+    - "\u5C0F\u84DD\u9C7C_14"
+    - "\u5C0F\u84DD\u9C7C_17"
+    - "\u5C0F\u84DD\u9C7C_9"
+    - "\u5C0F\u84DD\u9C7C_8"
+    - "\u5C0F\u84DD\u9C7C_16"
+    - "\u5C0F\u84DD\u9C7C_11"
+    - "\u5C0F\u84DD\u9C7C_12"
+    - "\u5C0F\u84DD\u9C7C_10"
+    - "\u5C0F\u84DD\u9C7C_18"
+    - "\u5C0F\u84DD\u9C7C_15"
+    - "\u5C0F\u9752\u9C7C_10"
+    - "\u5C0F\u9752\u9C7C_11"
+    - "\u5C0F\u9752\u9C7C_13"
+    - "\u5C0F\u9752\u9C7C_12"
+    - "\u5C0F\u9752\u9C7C_14"
+    - "\u5C0F\u9752\u9C7C_15"
+    - "\u5C0F\u9EC4\u9C7C_18"
+    - "\u5C0F\u9EC4\u9C7C_16"
+    - "\u5C0F\u9EC4\u9C7C_19"
+    - "\u5C0F\u9EC4\u9C7C_22"
+    - "\u5C0F\u9EC4\u9C7C_23"
+    - "\u5C0F\u9EC4\u9C7C_17"
+    - "\u5C0F\u9EC4\u9C7C_21"
+    - "\u5C0F\u9EC4\u9C7C_20"
+    - "\u67AA\u9C7C_14"
+    - "\u67AA\u9C7C_18"
+    - "\u67AA\u9C7C_11"
+    - "\u67AA\u9C7C_10"
+    - "\u67AA\u9C7C_15"
+    - "\u67AA\u9C7C_12"
+    - "\u67AA\u9C7C_17"
+    - "\u67AA\u9C7C_13"
+    - "\u67AA\u9C7C_19"
+    - "\u67AA\u9C7C_16"
+    - "\u706F\u7B3C\u9C7C_17"
+    - "\u706F\u7B3C\u9C7C_18"
+    - "\u706F\u7B3C\u9C7C_14"
+    - "\u706F\u7B3C\u9C7C_19"
+    - "\u706F\u7B3C\u9C7C_20"
+    - "\u706F\u7B3C\u9C7C_22"
+    - "\u706F\u7B3C\u9C7C_21"
+    - "\u706F\u7B3C\u9C7C_16"
+    - "\u706F\u7B3C\u9C7C_13"
+    - "\u706F\u7B3C\u9C7C_12"
+    - "\u706F\u7B3C\u9C7C_10"
+    - "\u706F\u7B3C\u9C7C_23"
+    - "\u706F\u7B3C\u9C7C_11"
+    - "\u706F\u7B3C\u9C7C_\u5149"
+    - "\u706F\u7B3C\u9C7C_15"
+    - "\u795E\u4ED9\u9C7C_6"
+    - "\u795E\u4ED9\u9C7C_4"
+    - "\u795E\u4ED9\u9C7C_21"
+    - "\u795E\u4ED9\u9C7C_20"
+    - "\u795E\u4ED9\u9C7C_8"
+    - "\u795E\u4ED9\u9C7C_9"
+    - "\u795E\u4ED9\u9C7C_14"
+    - "\u795E\u4ED9\u9C7C\u6B7B\u4EA1_2"
+    - "\u8774\u8776\u9C7C_8"
+    - "\u8774\u8776\u9C7C_3"
+    - "\u8774\u8776\u9C7C_0"
+    - "\u8774\u8776\u9C7C_7"
+    - "\u8774\u8776\u9C7C\u6B7B\u4EA1_2"
+    - "\u8774\u8776\u9C7C\u6B7B\u4EA1_3"
+    - "\u8774\u8776\u9C7C_2"
+    - "\u8774\u8776\u9C7C_9"
+    - "\u8774\u8776\u9C7C\u6B7B\u4EA1_0"
+    - "\u8774\u8776\u9C7C\u6B7B\u4EA1_1"
+    - "\u8774\u8776\u9C7C_4"
+    - "\u8774\u8776\u9C7C_10"
+    - "\u8774\u8776\u9C7C_6"
+    - "\u8774\u8776\u9C7C_5"
+    - "\u8774\u8776\u9C7C_11"
+    - "\u8774\u8776\u9C7C_1"
+    - "\u87CB\u87C0\u9C7C\u6B7B\u4EA1_2"
+    - "\u87CB\u87C0\u9C7C\u6B7B\u4EA1_3"
+    - "\u87CB\u87C0\u9C7C\u6B7B\u4EA1_1"
+    - "\u87CB\u87C0\u9C7C_11"
+    - "\u87CB\u87C0\u9C7C_8"
+    - "\u87CB\u87C0\u9C7C_4"
+    - "\u87CB\u87C0\u9C7C\u6B7B\u4EA1_0"
+    - "\u87CB\u87C0\u9C7C_2"
+    - "\u87CB\u87C0\u9C7C_10"
+    - "\u87CB\u87C0\u9C7C_9"
+    - "\u87CB\u87C0\u9C7C_7"
+    - "\u87CB\u87C0\u9C7C_1"
+    - "\u87CB\u87C0\u9C7C\u6B7B\u4EA1_4"
+    - "\u87CB\u87C0\u9C7C_0"
+    - "\u87CB\u87C0\u9C7C_3"
+    - "\u87CB\u87C0\u9C7C_6"
+    - "\u87CB\u87C0\u9C7C_5"
+    spriteTextureGUIDs:
+    - 901b448766badbe4cae4cae7aad084d0
+    - 0722060336764854d98df180a760a6fa
+    - fe7ac21e4a2964a44a5764cefb3b592d
+    - c2548a80851b1d440bdf1bb897cb3864
+    - 85d061078de98a44a996efc3360c7fc3
+    - 8dc3f29de8ec4a544b045011568d2928
+    - c0bd55767bfd2c541b0e4182ad741f40
+    - 95b19a604286c1747b7ae77bba27c7eb
+    - 566fe703a7ace5b4a9e49d7cc732bf8a
+    - c6995c4d464027f4abf14435d47ca779
+    - 88f80a3f55fd0284e8af7c0fe7aff0c3
+    - 98e7a2a8fa57fc54f856cca84121f5dd
+    - 8c5f47ee0d461604c9f63374ad16ca05
+    - 83af270e01c37fc40a3634bd0744ea60
+    - 6fd130f630e70c546a42c1ec21bfb52d
+    - 085d8e6561137d44b8f55cff4d3b3b69
+    - 1afdf9b54f6c01743aa1919db0bd8dd4
+    - 23a94e32859e5bf4194bf315c6df28a4
+    - aff1c95dfa4ebe14b92a5a3d6472bc38
+    - db064ec0b78795c43a1b6310fdf2eddd
+    - d8012df52b7c1ad48822790b5a532936
+    - b324b4134efce454f927d1f8c12e6677
+    - 9f6194b7bfb941041b2db1cfdef21624
+    - 44ad3a8f150092942a69088e7ec0978c
+    - 665c9b537f3fd83468794be4d81b8ec9
+    - bad09495ca5133b4ab532ca105f9d322
+    - 28e4325a5ae72b848acb2fa21ffb10e9
+    - a493332a9ebb659468a6dc92568df9f3
+    - 557e6090a9335934a8b7d19abc4d4457
+    - 6e49ebec8a66aee44ac3b7b95e48502a
+    - 023abae166cdbf142bc98f3fa14d005a
+    - f67bd34d9e2fd8243a7d35e01e901728
+    - 42d1674c3706ed14fb34fa47d9184a01
+    - b29383e742b1b504fbe84db3ae6ce7c5
+    - 087eb8e356048a843a4d0579bf4cf4cb
+    - 6c18855e6d89f5445a2f5900b3fb073c
+    - aeaa76fb4c340ae4e9c148973f64646a
+    - 59d17c545664c8b44840b4de5590f943
+    - 8cf5152aa694b9b41a44395a431c4381
+    - c3d6f0dfd6c043148864bd45cf309acc
+    - 0a18593e647dcc24bb473dea2991eb29
+    - 8a2d3238b4f84cd468f9ce07a1ec4310
+    - 9448745af231f684b96978b7d152114c
+    - c0f9d9da36bbd8540b0d6793191390ed
+    - bcac7dbd93df7814a968db6ea9d47c57
+    - fdcb9d15852d09e4ba11dcf7a3ff4b3f
+    - 2ff0bb81420c4fc45a5604b6b6b78093
+    - 15319e5638304134a86c0313aa9d8244
+    - 4ea756cdccf3acb4b8d8516694ad297b
+    - 3b3d2f9618d72f949b8f9f2d81368e3a
+    - 12a19cea93eedec4cbfe949b833c50ba
+    - 51b1e764a705cd74e8020edabf2f43d6
+    - c46b59d05984e3a488a1aa0f4efb63a0
+    - af0bf169ce9751f42880bd2edb44adc0
+    - 1a08b7c67939d2c43a51464fccfd075d
+    - 67126ff0707eb48459a8c3478912fffe
+    - 14f774186968dc447a0a0a5cd34e5a87
+    - 7326f278f4cfe584297d738adb633148
+    - 08293ba589a4a014fb3649d2af22d7d9
+    - ee7741c95bc2f0f4eaf7f7a654821897
+    - c45054c89ffb6ff4eb36fb61a5ea2581
+    - 75cced73cdc83474284e25dbe59fbdb0
+    - aeaef2666a16b2043acba791bb12e3c7
+    - f89c75807a81f25419a22fdc00e07ea1
+    - 0698c10a994c8db43be8d649431b18c0
+    - b4bf1684fb764ca4384e7e23f5f3fc1c
+    - 4e13e4d2cb78ca7449fc674f2df5916c
+    - 8c293b2393d1e8146a7b344e660fdad8
+    - c3b7c37c6cda8474487f42e8061fb392
+    - 06bc709abf790ad46a8518ef32364cd5
+    - 734ecc1fe64d5ec4ab0868826732e9bd
+    - dc3b3816182727349b241acb482cc083
+    - cbf25559ba0158042b9724272b43351c
+    - dac48a601f0f14549a1f1562a0af8299
+    - 5225644e51bd6dd4499535932572ed13
+    - 7c8735c69012f2b4ebcb7fe4d2c228f9
+    - fe620acd27ba0254792f033e3fad4c91
+    - 6f2517713b5884f42a5f8e279488449f
+    - b9f003a0d1b88e743b8fe0ea1e7834da
+    - dad350bab67d75244b24f5ddde31e845
+    - 1bad90c6a68e1e94fb08bbee80a1ca75
+    - c411076280bb5e142994fe4e651413cd
+    - e631f27a3c9ad7f4eaa36747ef333bb2
+    - 62ae8445abdb0d8469b41d3c65768e4c
+    - e9ce4b503c3f99f4595907e61c7408f5
+    - f3ab5af614b860e408e74c784005dfa6
+    - e794ac163976bfa4c882d14f696d1f1a
+    - ee4db8f325540254a8055494af1091f5
+    - e2e6b919593d5da48be2c02f4a6fdc43
+    - 0c0d78e3218941143bd0c2c69ed08cef
+    - 3c6a8b4a0bf231941b4dc94dfbcba064
+    - d21b1e5424f765746aebbdf11d8f33bc
+    - ac0439081109b804b82c1f42f6db81c3
+    - e402977b4e3ffa84ca623270d260694b
+    - 11dbc39702062fc4c80ae0c15768a4a4
+    - 0df049a641394cc49bd1683b90f170f1
+    - c7a8a84a2ded301468f9b6b4dfedc0cb
+    - dec54d82ef72e834689bebc32cedc4ea
+    - 4fa2b080f20807846896d5fe526b96b9
+    - 1e38fe608d3863b4db6d97e4dcb45b43
+    - 4908dbafc13497943b027a8d2ee8cef6
+    - 94bcfea64dd984e46bc7b654bfe18f9c
+    - db14607fbccd5e240a0f27fc0e7d6477
+    - daf13ced67f970d489cdcaf67a5f4267
+    - 8b7ede82d941ce347aa31f214f0f1e8f
+    - 4abb8a9d3e91fdc4988c819fe5731e42
+    - 5095162a76912f64589e13e31a9ab02b
+    - f5277b824a2495140849c5b6c1103566
+    - 207ce9be64ab269469326e9c85e3d710
+    - 5ba0165f7d96e3549ab13a0ee8e3755f
+    - 8cb4835328486c646a8f17877f4c5f66
+    - 6a6f2c96a686a274ca0d5a15bc32398c
+    - c87b383b31a468b438a5e8920feb559c
+    - 92595e35cb0c4da4c9ede7b463338ec5
+    - 62e4417af60c7794a89d374dc161e67b
+    - 5b8fd3fc90a01594b9516d712ef6170b
+    - 783420e17a6751b42ad66c78306a731e
+    - fcb15f3aa86a265408e1da5ecb1784b5
+    - 9252203d61e4fa94a9ee0b9f92815f30
+    - cd71e304815667a41852cd72b92dcc05
+    - 2ee304e05a2da4342b535f7f6e6206fb
+    - 98ab3d238450a6b4e9685e7134286d84
+    - 307b1da322c4d5248963da5368ed1b38
+    - 695eae276668dd74f81b1c08572511b9
+    - 6b32b198f48eae14098a86f04e0ce196
+    - 2c868b98d8ddd804da201f15927aec1e
+    - ef6ed69ae9a602944b329398502dcd02
+    - 9131bbbcd8ac5164bbc5633a5de28325
+    - 1da9269dbb37f074aaa5173412bebf5a
+    - 33dd574476113a94cb40a2ab63fdd892
+    - 588a2af0efc37a748b0a0290805b4036
+    - 7f8c52be1300b8a4a927c1bd85fcc30d
+    - 2764a71f25598374abd68dd3a5bd9563
+    - 8260dc403ea394046987969dfc2b3a6c
+    - 49da26f373f3e0c4fb4ed5adfd8c0d7b
+    - f22c9024026399d4e84ad1ff2d5de29e
+    - bf7525b506cfaf1418bce77b3fd2b512
+    - 55daa2109cc7bc74c9013aa83c18a3e9
+    - e38a0d305a24f1847aedacb79651fabe
+    - d2967a925d7325c419695ce2f560c9cb
+    - ce339c044ff6fcb4b8eb12aabf070273
+    - b1d9fb84f6195b84ebe3ea2a71883c5e
+    - ef7929f4fcede5d448457b6f93243883
+    - ba6fcf25a5f6d884abee9c33e118a3f3
+    - 5b291d35ce77b874c96c767360b17d13
+    - eedaaf26d5429644784cb791b4ecbdcb
+    - 6c9e8172369138f479c59065d99062b6
+    - ab19a0764bc33134e9ba1abbce4f6df7
+    - 6ce1cc96cebf5f04ba9d9ba2ebe5f7f6
+    - 98b4cfd6a53cdfb4fa7659babb8f0f0b
+    - c20c5a47832c3d04a9a0234c438dca20
+    - 3964c138249316440b76ef09a68e8c39
+    - 4b2fc559fe802034aae41c5c2079418c
+    - 06cb592a838e50947a17f9af29dbd418
+    - 8214dcaa13dd86e47b500525773846c8
+    - 3437774b07d667b4cbd82643d48cc02d
+    - a19d007b069e237488b2939f96682a44
+    - 5cb51a19853b3374db07f8e162f7932b
+    - 76b961b8db90af848a35b0bb6ec8e09e
+    - c2d7d10d2e430bc449b7e7be8174bd9a
+    - de48a69183cd4e141bff5d898a1f7186
+    - e4a0552cd06809641a7e085fda599001
+    - 0abb7a2d763db7043a985d4e384ac737
+    - 502484137c424aa4bb7ebab8d2aaa57e
+    - 594832d20c3bc284da2a56fa059f030a
+    - 5be9aee2dbad5a14685d5dffff65aec1
+    - 712696d16b6284f48aedde8840bb3917
+    - 86e6ca20fcdf9d145aaa4cd8fb70e89b
+    - 8eea6376a7a165e409481f7c86a65a3f
+    - 9227ea1a924fa92429f6b5cb4e277d75
+    - b2914c04700e3944ea62fdb4e2a367ec
+    - b9b7a08a0c5e7ba47809cb5f3fa962e3
+    - c99301570e4068b4b9c103dfce7d77e7
+    - ddb61f9b6d02a9b4daad2384f72ea2d8
+    - 08264709fb57d1341995c348eefe707f
+    - eab0456d283ecf540a9b1a7a3fe29397
+    - 6905d949f9c19c74f952da3367476ba4
+    - a14e26971b2335f4b84c0804f8978a0a
+    - ae96d5d5030dab74fa93e967b2eb6ddd
+    - e38329a4518fc624cb3fd990e351816d
+    - ea9656b2f1671ec42838888096172ab7
+    - efc55abcb856e6e469e71c9365e82c8d
+    - 07715fd7cef6de44e9be651fcce7d32f
+    - 1ec6f8599c0cacf45bf6a4a89da92117
+    - 38ced40f516654e4fa9bbd22d7b699d7
+    - 66d594f2814ebe74681060631cbb2a64
+    - 7e808dc709355d449a0d69e00bfbb650
+    - 8703904b3ee7720449c374b547b3f9e5
+    - a991f9a7f5879d44b98d6ee5e9216999
+    - b84c0e1e50fd0b343b09c09319a71fb3
+    - e28da25c7c2764c4385a0875f661f506
+    - 7e53fdafa01583f42aa410a33b1fe5b5
+    - fe7eca70140c3fc46a49b039aa21237e
+    - 79861152e8c4569429e1bcdd010886a0
+    - 87015872d78ffa8438f266adb8d1b888
+    - bf0e88aff1ad9d840a2240195a972ff1
+    - 179efa728939230499bbb336ad8ca9ff
+    - 3246294b97134a44488f86f1292b000e
+    - 6b3f1b37b0ebff74d8641cd1863e2ffb
+    - 788d70ea4f3d73d4fbdf7fc7b2dd6300
+    - a543557a516b2d4449cf3bea13c485a3
+    - b13c59330a7bd404bbe20a86d5a1081b
+    - cfff68ef5fed3604d944381f51465bf9
+    - 8b5cf64e9e7cfa94e8ae88594a103ed0
+    - f58dc0e174e2b1049b49ebd93b92d315
+    - 688b166654be70f47aeaa14d67655f87
+    - 6bb94c6365c01d24ba18852ebb606b78
+    - 8110b0c742870be43aca93ade61c3356
+    - 901809483ceb6a145b1da3e550650e07
+    - 9cd56bd25f46b9a4dab6c147d3254201
+    - 10932cac2b4bbc542958385973cea1fa
+    - 11e9179bcba987d44a1ed91716a656ea
+    - 19b7b1d8bcea45e489fa321c27a3f777
+    - 501079f393e26884993ac70e9d24c934
+    - 6a9fc2e46a68bea41b85ecda034cfa60
+    - a50cd8c43e487e54892d5957fd4eaedd
+    - baa3fc16c08b73844a0013760e736ad4
+    - ca9694b990353704495bc00c3494a40c
+    - 087c4586f7e8bb9489cc9b1b08811d6b
+    - 11d71fa66d69250469f57ef1c4962092
+    - 21332a6ffe472e044b35c18ac82215a6
+    - 333302a7fcf3fd14e961237da16af260
+    - 337c8c4989e01ea4d9b63ed0fad3f481
+    - 3c22894525beb1840ba97b75266466f7
+    - 6aeb92a35a362934d9c4befa9c37239b
+    - 78ee68445d0700d4ebb1c19401950154
+    - 7f0d59261c5f43b43ac9e1a956ced2ba
+    - 82306fffb4b19d34a8019a27f6122190
+    - afa8764622db3904288b4ad2c8e411ea
+    - cf1309485787fc542bca9c276cf52c3f
+    - 0741ebd0a4ab8fd49bcf0b5d4d9cf732
+    - 0c23406334fa76f448428f330d1e3349
+    - 25051dd1729cca14bad87d71002c745e
+    - 36460844872613d4bb63f9ff8658b6b7
+    - 43e37a8ed420f5c4cae52d9c23456daf
+    - 4ad4da526564848438ce1afb485877f7
+    - 57077c13b1a4b8a44b6b1e675597efac
+    - 6a983ec28f109a4438a360e6307fc5b5
+    - 7374e0f089ba0ba4ebc189dfa49c23ab
+    - 7f264acbc88fb104ea85d1febc79842e
+    - 97233fd67a532194696203f350d9804f
+    - abc0d5b581b006d41ac6f52a4a749f8f
+    - ac4b472a2a6991242b718e8f01d941d1
+    - cbf04ccab95e57442a1152ac131bd6f1
+    - ebe76042aab9ce64bb114333645d5c4a
+    - f75329555c510d142ab39ebd81cf4a64
+    - 04c62a61e7524f24c9d69a5d834adfb1
+    - 5932efabb963b764099cce83932ed076
+    - 693ab500114e2de42bdcde76c86b06e8
+    - 6be706cb313682040a73334654ac58d8
+    - 731855e2ee5f1064585daeac07800a1d
+    - 737a8d1d944fe4e4f84922593fb3f584
+    - 9e88b4ae5ae4e434bbd1d382c6e093ad
+    - bc3d8cdb38b1b384db975e03e3c849fa
+    - bc6eda7c619ed9049836a45a3d8b5997
+    - c566bddbcf9a1f54b8c3e620eb5ddace
+    - cc25a2cebf7ce744ab4783c9b42c8d39
+    - ce9a2f80060ea8e4e8b746dddf770760
+    - de57a488f721c05449394f39752546eb
+    - e6943a3ee6b24e341938df965dba758a
+    - eb5e71ba55b43b44ab3ad87ba6a62a56
+    - f89017176222fc140a1057cbdb028d84
+    - 2fb2e783cb5f97748bcce79308567b36
+    - 55b5c254874ca6b4b823ef46a4f77104
+    - 606e47549d85a8d49928a1e836917f91
+    - 847985d1e22440c4ea76639bb6f4022f
+    - 89420e700c82977458846170f658d153
+    - a2bcb199e957bda4fa8392f4733cf0f8
+    - cbf6d56637f583b4cb7d2ff9c4740459
+    - cc2fd00d238be4e4f92d23ba9c136ac0
+    - e1fc22a48ee9da24fbbc8fd2460eb54e
+    - e3cf4da348ae7e14c87caf47412874df
+    - e87ea79ccc955f7458037f72f946e5bb
+    - f6a9dac76dc819e4bb3401819b050c79
+    - 1b9ff43737c3bf042b3e6af8ea0bd6f2
+    - 39d67d4603d23ce409a37dd1899199e8
+    - 94b31092affeb7240ad706aee41030e4
+    - a8a377a206878c1469d8f655fea75d39
+    - bd57f65f1bd3f2d45a2170195b4a1083
+    - ee9a93d136532c747a6437be890c6c1b
+    - 067c5978ea087bf479e93b8546cc8439
+    - 4d1c4c425effd2d43b7b9275c08652ee
+    - 69c178bf07262ce4da731a026c8ff86c
+    - a2c98207fbb418347911f661e9de8867
+    - b993e7c4f3877a44c9b60b2fbf41b76d
+    - e7d2f95970aa4c24ea36b4858277170b
+    - f50bbcd08ecdc4841b9176159bcbc7ba
+    - fb826d8b9b1baf9498268d180f61ced5
+    - 000fddade71dbd94d9256942c33f867f
+    - 2542d2cbfc53ee54490ec5e7519e2cd0
+    - 2784af4ba3ec5e144b93a65115c2f71f
+    - 6ed09b734db8a8543a08a377206879df
+    - 83805e651f82af74cb0a68610639e1da
+    - 8d976b7de666fae488e5223d11197889
+    - be013fd1051d269479b841c943358661
+    - d4a85e04ae8502e4587d90b6be21c837
+    - db0730c11fa14ef41974b95c48ff4805
+    - e293ed3b7676d8b49b787c3f27dfa039
+    - 055cd5c0c0ffacb48a1fcce824768f94
+    - 0db434d5bbe49bc4faddc283a8542f4d
+    - 2395f41d7e1e5bc40b277884651fa4c0
+    - 383766e7672a8234ebdb8fdefcc459e4
+    - 3cb78a8abae8df347a2a4f507aa81eb5
+    - 4af36973d1d023747be1ee06388481f0
+    - 65372147252ca2d43bfa453f17b79bd0
+    - 6dc017256590ee549a054f30eef8e366
+    - 6f7d740981dc57f438fd999ebc1ccf3d
+    - 7a497fddd1bcfcd4ab7ace89e21a648d
+    - 7f515e1964e4f86478cc12975ee835c4
+    - 827f761cb421aba478e77484bf43cbe5
+    - 94e16aad39e404f499dc580fd161245b
+    - a2595bb1e7ea10e4e9a381f9572a3a1d
+    - d7d56f89abec2234f8a10ea89fa5fe09
+    - 79d29f7d69dffc945a3c0f318ed4022a
+    - 08625ffd1a2f89f42bb51a3e801a8599
+    - 080d780e40a413444aa8e72c776abbd6
+    - 4834e5ae98923ae4ca7f4db5e817441b
+    - 6a56d5ce3a3c4764da18c92d49fda8b5
+    - 9451d4cfe8c398848b6b6eefce3d96b1
+    - 8251b8cf82f332b4487a61d45c5c2177
+    - 7d958defa77333f4c9ee4354a7d9ff24
+    - 901e4940b8e0fa84dbd6b7a20c2601d3
+    - f0254090fe78887489d29bb9d37b757e
+    - a4424753c2532be43b094018425c6171
+    - a9701df3bf324014ab84228a20714cb1
+    - a0b82d0409a4bb04d9b6242c431617fa
+    - 45555b245c4e0a04a9819821519c659d
+    - 1af46a87986921e49babca610f57d755
+    - 3b7de4786380d8a44bd6c9331762466c
+    - 67f51e78d7ca4644e8657f08b2d66773
+    - 53789ef8387bab04db7db23d1333a868
+    - f6a9012921d95a041a4cacd1e345504b
+    - 57db1cf982d8ced449245f471a16f6ae
+    - ca9eaa5c140bfc24da6f90da68a6f8e5
+    - e5480c3ed28e1974fbe2177502dd3975
+    - f831884f520796f488d7cbcfe82da581
+    - 032b097f99073934598c213a4083c241
+    - dacdaa319a75025439ba58fe75fa5438
+    - 791d65e1b345cda4ca137a5ea8d93410
+    - c0f72802cf77a7c45b5e19484cfbc379
+    - a20feb238726750439e83972395c5e1a
+    - 4e0c2d43274721548b51f43a7a5620be
+    - 5df4b5a303d57c84299f53ed29208d88
+    - 68565cd30d524b949ad2403e1898c542
+    - e23a3b245f37d9b4199ce2313807d35c
+    - 433d1d545a7efb648b58514c7e1df2e5
+    - d72f0757771686d4b8695784395fd5d8
+    - a588b9a8744ebee4091daa48e66e6cf7
+    - 95ef313b9c6d5104b84923b5a2ba25ee
+    - 523a099b92dd7ae4288f40dd26e202cc
+    - f4228b0c7b319c840bf7d3921a1ab504
+    - 1052763d0fad39345b0bb97781394bc4
+    - f6e318dde12fc2846a41ce3b5fec7476
+    - cf9f438e4e1f6cd44837ee6d338a1f1a
+    spriteTextureTimeStamps:
+    - 1332179918
+    - 1332179910
+    - 1332179932
+    - 1332179930
+    - 1332179930
+    - 1332179928
+    - 1332179928
+    - 1332179926
+    - 1365848131.81217
+    - 1365848132.02217
+    - 1365848132.27217
+    - 1365848132.48217
+    - 1365848132.67217
+    - 1331812504
+    - 1331812504
+    - 1331812506
+    - 1331812506
+    - 1331812486
+    - 1331812488
+    - 1331812488
+    - 1331812488
+    - 1331812490
+    - 1331812490
+    - 1365848138.03218
+    - 1365848138.21218
+    - 1365848138.39218
+    - 1332179032
+    - 1332179032
+    - 1332179032
+    - 1332179030
+    - 1332179030
+    - 1332179030
+    - 1332179030
+    - 1332179028
+    - 1332179028
+    - 1365848143.15218
+    - 1365848143.40218
+    - 1365848143.58218
+    - 1332345952
+    - 1332345952
+    - 1332345952
+    - 1332345950
+    - 1332345950
+    - 1332345948
+    - 1332345948
+    - 1332345948
+    - 1365848147.49219
+    - 1335604292
+    - 1365848133.08217
+    - 1332179444
+    - 1365848146.84219
+    - 1365848147.11219
+    - 1365848147.30219
+    - 1332179448
+    - 1332179448
+    - 1332179446
+    - 1332179446
+    - 1332179446
+    - 1332179444
+    - 1365848151.37219
+    - 1365848151.55219
+    - 1365848151.72219
+    - 1332179700
+    - 1332179744
+    - 1332179742
+    - 1332179742
+    - 1332179734
+    - 1332179754
+    - 1332179754
+    - 1332179752
+    - 1365848154.7822
+    - 1365848154.0522
+    - 1365848154.2322
+    - 1365848154.4122
+    - 1331811754
+    - 1331811762
+    - 1331811760
+    - 1331811760
+    - 1331811760
+    - 1331811760
+    - 1365848156.8522
+    - 1365848157.0022
+    - 1332326272
+    - 1332326304
+    - 1332326316
+    - 1332326312
+    - 1332326312
+    - 1332326312
+    - 1332326314
+    - 1332326314
+    - 1332326316
+    - 1332326316
+    - 1365848160.04221
+    - 1365848160.20221
+    - 1335604284
+    - 1335604282
+    - 1335604282
+    - 1335604282
+    - 1335604280
+    - 1335604256
+    - 1335604300
+    - 1335604294
+    - 1335604294
+    - 1365848167.74222
+    - 1365848168.04222
+    - 1365848168.24222
+    - 1365848162.72221
+    - 1365848162.91221
+    - 1365848164.03221
+    - 1365848164.22221
+    - 1365848164.47221
+    - 1365848164.66221
+    - 1365848164.89221
+    - 1332179020
+    - 1365848138.60218
+    - 1365848138.79218
+    - 1365848139.36218
+    - 1365848139.54218
+    - 1365848139.73218
+    - 1365848139.91218
+    - 1331812570
+    - 1331812572
+    - 1331812568
+    - 1331812568
+    - 1331812572
+    - 1331812570
+    - 1331812560
+    - 1331812570
+    - 1365848163.47221
+    - 1365848163.84221
+    - 1365848163.28221
+    - 1331812570
+    - 1331812558
+    - 1365848170.82222
+    - 1365848171.11222
+    - 1365848171.28222
+    - 1365848170.56222
+    - 1335957484
+    - 1335957512
+    - 1335957514
+    - 1335957508
+    - 1335957516
+    - 1335957524
+    - 1335957516
+    - 1335957524
+    - 1335957518
+    - 1365848132.87217
+    - 1335957522
+    - 1335957522
+    - 1365848175.77223
+    - 1335957510
+    - 1335957510
+    - 1365848175.98223
+    - 1335957528
+    - 1335957508
+    - 1365848176.48223
+    - 1335957514
+    - 1365848165.53221
+    - 1365848163.09221
+    - 1365848163.66221
+    - 1365848165.14221
+    - 1365848165.34221
+    - 1331812496
+    - 1331812490
+    - 1331812492
+    - 1331812492
+    - 1331812494
+    - 1331812496
+    - 1331812494
+    - 1331812492
+    - 1331812494
+    - 1331812494
+    - 1331812494
+    - 1331812492
+    - 1332179922
+    - 1331812490
+    - 1365848140.69218
+    - 1365848140.51218
+    - 1365848140.09218
+    - 1365848140.32218
+    - 1365848139.17218
+    - 1365848138.99218
+    - 1332179020
+    - 1332179020
+    - 1365848144.99219
+    - 1365848144.58218
+    - 1365848143.80218
+    - 1365848144.79219
+    - 1365848144.21218
+    - 1365848144.39218
+    - 1365848144.03218
+    - 1332179444
+    - 1332179442
+    - 1365848152.2522
+    - 1365848152.0822
+    - 1365848151.9022
+    - 1332326320
+    - 1332326318
+    - 1332326320
+    - 1332326318
+    - 1332326320
+    - 1332326318
+    - 1365848160.36221
+    - 1365848154.9522
+    - 1365848154.5722
+    - 1331811758
+    - 1331811758
+    - 1331811758
+    - 1331811758
+    - 1365848157.1622
+    - 1335957520
+    - 1332179920
+    - 1332179924
+    - 1332179922
+    - 1332179922
+    - 1332179924
+    - 1332179926
+    - 1332179920
+    - 1332179018
+    - 1332179016
+    - 1332178998
+    - 1332179016
+    - 1332179018
+    - 1332179018
+    - 1332179016
+    - 1332179014
+    - 1332179014
+    - 1332179008
+    - 1332179016
+    - 1332179018
+    - 1332345988
+    - 1332345956
+    - 1332345944
+    - 1332345984
+    - 1332345938
+    - 1332345986
+    - 1332345956
+    - 1332345954
+    - 1332345956
+    - 1332345946
+    - 1332345986
+    - 1332345946
+    - 1332345984
+    - 1332345946
+    - 1332346032
+    - 1332345954
+    - 1332179434
+    - 1332179440
+    - 1332179438
+    - 1332179438
+    - 1332179450
+    - 1332179436
+    - 1335189934
+    - 1332179440
+    - 1332179436
+    - 1332179426
+    - 1332179442
+    - 1332179438
+    - 1332179442
+    - 1332179434
+    - 1332179440
+    - 1332179436
+    - 1332179748
+    - 1332179742
+    - 1332179748
+    - 1332179744
+    - 1332179750
+    - 1332179752
+    - 1332179746
+    - 1332179750
+    - 1332179748
+    - 1332179750
+    - 1332179744
+    - 1332179746
+    - 1331811756
+    - 1331811756
+    - 1331811754
+    - 1331811756
+    - 1331811754
+    - 1331811754
+    - 1332326322
+    - 1332326322
+    - 1332326324
+    - 1332326326
+    - 1332326328
+    - 1332326322
+    - 1332326326
+    - 1332326324
+    - 1335604288
+    - 1335604286
+    - 1335604290
+    - 1335604292
+    - 1335604288
+    - 1335604290
+    - 1335604286
+    - 1335604290
+    - 1335604284
+    - 1335604286
+    - 1331812562
+    - 1331812562
+    - 1331812564
+    - 1331812562
+    - 1331812562
+    - 1331812560
+    - 1331812560
+    - 1331812562
+    - 1331812564
+    - 1331812566
+    - 1331812566
+    - 1331812560
+    - 1331812566
+    - 1306773456
+    - 1331812564
+    - 1335957520
+    - 1335957522
+    - 1335957486
+    - 1335957488
+    - 1335957518
+    - 1335957516
+    - 1335957512
+    - 1365848176.19223
+    - 1365848178.75223
+    - 1365848177.81223
+    - 1365848176.68223
+    - 1365848178.56223
+    - 1365848179.59223
+    - 1365848179.79223
+    - 1365848177.62223
+    - 1365848178.94223
+    - 1365848179.13223
+    - 1365848179.35223
+    - 1365848178.01223
+    - 1365848177.22223
+    - 1365848178.38223
+    - 1365848178.19223
+    - 1365848177.43223
+    - 1365848176.97223
+    - 1365848181.47224
+    - 1365848181.62224
+    - 1365848181.31224
+    - 1331811716
+    - 1331811712
+    - 1331811714
+    - 1365848181.15224
+    - 1331811714
+    - 1331811704
+    - 1331811710
+    - 1331811712
+    - 1331811716
+    - 1365848181.78224
+    - 1331811716
+    - 1331811714
+    - 1331811712
+    - 1331811712
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Fish4
+    spriteCollectionGUID: dec87d9a3adffd04f8be12edf584c3e0
+    spriteCollectionDataGUID: 31e1ee1d132a7f7408d20d379f31943d
+    spriteNames:
+    - "\u77F3\u6591\u9C7C_19"
+    - "\u77F3\u6591\u9C7C_13"
+    - "\u77F3\u6591\u9C7C_16"
+    - "\u77F3\u6591\u9C7C_17"
+    - "\u77F3\u6591\u9C7C_23"
+    - "\u77F3\u6591\u9C7C_15"
+    - "\u77F3\u6591\u9C7C_20"
+    - "\u77F3\u6591\u9C7C\u6B7B\u4EA1_0"
+    - "\u77F3\u6591\u9C7C\u6B7B\u4EA1_1"
+    - "\u77F3\u6591\u9C7C\u6B7B\u4EA1_2"
+    - "\u77F3\u6591\u9C7C_0"
+    - "\u77F3\u6591\u9C7C_1"
+    - "\u77F3\u6591\u9C7C_2"
+    - "\u77F3\u6591\u9C7C_3"
+    - "\u77F3\u6591\u9C7C_4"
+    - "\u77F3\u6591\u9C7C_5"
+    - "\u77F3\u6591\u9C7C_6"
+    - "\u77F3\u6591\u9C7C_7"
+    - "\u77F3\u6591\u9C7C_21"
+    - "\u77F3\u6591\u9C7C_12"
+    - "\u77F3\u6591\u9C7C_14"
+    - "\u77F3\u6591\u9C7C_18"
+    - "\u77F3\u6591\u9C7C_22"
+    - "\u94F6\u9CA8_10"
+    - "\u94F6\u9CA8_23"
+    - "\u94F6\u9CA8_19"
+    - "\u94F6\u9CA8_21"
+    - "\u94F6\u9CA8_15"
+    - "\u77F3\u6591\u9C7C_11"
+    - "\u94F6\u9CA8_13"
+    - "\u94F6\u9CA8_4"
+    - "\u94F6\u9CA8\u6B7B\u4EA1_1"
+    - "\u94F6\u9CA8_1"
+    - "\u94F6\u9CA8\u6B7B\u4EA1_5"
+    - "\u94F6\u9CA8\u6B7B\u4EA1_2"
+    - "\u94F6\u9CA8\u6B7B\u4EA1_4"
+    - "\u94F6\u9CA8_18"
+    - "\u94F6\u9CA8_12"
+    - "\u94F6\u9CA8_5"
+    - "\u94F6\u9CA8_3"
+    - "\u94F6\u9CA8_2"
+    - "\u94F6\u9CA8_14"
+    - "\u94F6\u9CA8\u6B7B\u4EA1_3"
+    - "\u94F6\u9CA8_22"
+    - "\u94F6\u9CA8_20"
+    - "\u67AA\u9C7C_5"
+    - "\u67AA\u9C7C_4"
+    - "\u67AA\u9C7C_19"
+    - "\u67AA\u9C7C_17"
+    - "\u67AA\u9C7C_3"
+    - "\u67AA\u9C7C\u6B7B\u4EA1_1"
+    - "\u67AA\u9C7C_10"
+    - "\u67AA\u9C7C_13"
+    - "\u67AA\u9C7C_15"
+    - "\u67AA\u9C7C_9"
+    - "\u94F6\u9CA8_6"
+    - "\u94F6\u9CA8_0"
+    - "\u94F6\u9CA8_9"
+    - "\u94F6\u9CA8_8"
+    - "\u94F6\u9CA8_17"
+    - "\u94F6\u9CA8_16"
+    - "\u94F6\u9CA8_11"
+    - "\u94F6\u9CA8\u6B7B\u4EA1_0"
+    - "\u94F6\u9CA8_7"
+    - "\u67AA\u9C7C_1"
+    - "\u67AA\u9C7C_7"
+    - "\u67AA\u9C7C_0"
+    - "\u67AA\u9C7C_2"
+    - "\u67AA\u9C7C_16"
+    - "\u67AA\u9C7C_11"
+    - "\u67AA\u9C7C_18"
+    - "\u67AA\u9C7C_12"
+    - "\u67AA\u9C7C\u6B7B\u4EA1_2"
+    - "\u67AA\u9C7C_14"
+    - "\u91D1\u9CA8_0"
+    - "\u91D1\u9CA8_1"
+    - "\u91D1\u9CA8_2"
+    - "\u91D1\u9CA8_3"
+    - "\u91D1\u9CA8_4"
+    - "\u91D1\u9CA8_5"
+    - "\u91D1\u9CA8_6"
+    - "\u91D1\u9CA8_7"
+    - "\u91D1\u9CA8_8"
+    - "\u91D1\u9CA8_9"
+    - "\u91D1\u9CA8\u6B7B\u4EA1_3"
+    - "\u67AA\u9C7C\u6B7B\u4EA1_0"
+    - "\u91D1\u9CA8\u6B7B\u4EA1_0"
+    - "\u91D1\u9CA8\u6B7B\u4EA1_1"
+    - "\u91D1\u9CA8\u6B7B\u4EA1_2"
+    - "\u67AA\u9C7C_8"
+    - "\u67AA\u9C7C_6"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u77F3\u6591\u9C7C_9"
+    - "\u77F3\u6591\u9C7C_8"
+    - "\u77F3\u6591\u9C7C_10"
+    - 
+    - 
+    - 
+    - 
+    - "\u91D1\u9CA8_10"
+    - "\u91D1\u9CA8_14"
+    - "\u91D1\u9CA8_11"
+    - "\u91D1\u9CA8_12"
+    - "\u91D1\u9CA8_13"
+    - "\u91D1\u9CA8_19"
+    - "\u91D1\u9CA8_15"
+    - "\u91D1\u9CA8_17"
+    - "\u91D1\u9CA8_18"
+    - "\u91D1\u9CA8_22"
+    - "\u91D1\u9CA8_23"
+    - "\u91D1\u9CA8_21"
+    - "\u91D1\u9CA8_20"
+    - "\u91D1\u9CA8_16"
+    spriteTextureGUIDs:
+    - 6ac8ba70bbb35fe42bf1a8209db9622d
+    - 215c62a145be26644ac583cf55b1ce9d
+    - ecc140b22418eed449724c240c76c38a
+    - 54093273b0ead8f4bbe8838cee3b1fd8
+    - ad0e31839314f1a4cbf6f11d5b4a1762
+    - 94a3f5d5e9fcc3144924fcfc0f7bc018
+    - 82129438660f1cc4c95b433fc29f87af
+    - b1abaf21cb6cad842bf27a7f95925d55
+    - 7cc84975cf0ac474cb3565d3ce692214
+    - 593019f269fbf7744b6840e36318729b
+    - 3f77d6b800db8dd4bae15d62225bde1a
+    - 6b6462c38023a3a4bb228c6c7523236d
+    - 9c0ae38f1c227b74daa725f8ca62dd1d
+    - 257dbb36530f30046ad156b649cb4e77
+    - ad61d3f6277759d4796cf051f94d9969
+    - 984d290518221ab4b969a1c844f206e7
+    - 2dc548cddfd0f5e4f980cb2d96ec9322
+    - d04a3007ec7705f41b3cf53015717aa4
+    - 4cc4f91b9e7cb9e46ae6d37e61ba1b8f
+    - b059ac8b8b6be38428615ef50cfaa6c9
+    - 19bf534d7749e5a4e91f8baac2c91946
+    - 098db21ea4a66bc46841bca4b8ece093
+    - 1c695dee2ce51534497cc7c349292a83
+    - 2d1fe9f156a03c04f8ea16d6543e17bb
+    - dd8e8eb3d5c92e4418431b926cc884ab
+    - 41b7c8f340305744599c0b9bcc3204ef
+    - c2f25c248bbae3b45968b7994960bacb
+    - 82a9ef94e76c57c479a7ee4ddf41abd1
+    - 4ababb61cdf63c74e878136704381c0f
+    - e1e1f8d4dd12b7f4f9147d2c23a39cf2
+    - 864469e5a9b12a44f88c092c9c1c84a4
+    - 1f0b395623394e143b56e86566edf837
+    - 4478e2e628d76dd4db427836e1f3568c
+    - 0790742760489224995bcf3e26c64e74
+    - bc0af56788b38e641afbc25e486afb8b
+    - e3d18d77d9c9f2046829a77b4ec151da
+    - ea3e1397cb9cada4981e2835bb274ebf
+    - b0b8d998b7c05ba4d9cbf49de794a1c8
+    - e21b99a848bf85649806b31aab793627
+    - db6bd319403bf364f94b0613d2fbd8db
+    - e99a2d29d9a739a429fb2a9dd7c2d5c6
+    - 32ff383950ccbb64dbca1692c22ae226
+    - c688117974608054894591417318e93d
+    - 5299f60a5c48b5942b56b00b022d5be1
+    - 3cca0e1a897ff1144b3903af706f12e6
+    - 1e38fe608d3863b4db6d97e4dcb45b43
+    - 4fa2b080f20807846896d5fe526b96b9
+    - db0730c11fa14ef41974b95c48ff4805
+    - be013fd1051d269479b841c943358661
+    - dec54d82ef72e834689bebc32cedc4ea
+    - 8b7ede82d941ce347aa31f214f0f1e8f
+    - 6ed09b734db8a8543a08a377206879df
+    - d4a85e04ae8502e4587d90b6be21c837
+    - 83805e651f82af74cb0a68610639e1da
+    - 15319e5638304134a86c0313aa9d8244
+    - 63b70e9af3f35744d8dc228631a516fe
+    - 75738cda8cf38934ea92af4ec8845bb8
+    - ffd0251b97fc0374b86fd9b52b49cdee
+    - 2ea8ff1bd20da534dbd2a3507aecc563
+    - aa818c9ba852f8542b5ae695bbb30a30
+    - b5cabe6dd02ea7346b31c41d07c93c7a
+    - f7838fad465b7a141bc6eb834c619db6
+    - cb3c5b4e144f8b242a5029b1699fa429
+    - 18ac0e1fc56bc714faedcf8535ea369e
+    - 0df049a641394cc49bd1683b90f170f1
+    - 94bcfea64dd984e46bc7b654bfe18f9c
+    - 11dbc39702062fc4c80ae0c15768a4a4
+    - c7a8a84a2ded301468f9b6b4dfedc0cb
+    - e293ed3b7676d8b49b787c3f27dfa039
+    - 2784af4ba3ec5e144b93a65115c2f71f
+    - 2542d2cbfc53ee54490ec5e7519e2cd0
+    - 8d976b7de666fae488e5223d11197889
+    - 4abb8a9d3e91fdc4988c819fe5731e42
+    - 000fddade71dbd94d9256942c33f867f
+    - c1bf92bc05d26ec4e94485cabbfac11a
+    - 231bfca2a8b44574a8df3d45f731c8f7
+    - fa119cfd6bec7974b8279f38cbef2107
+    - 0e0ff948526c3064dbd1ad80ca54b299
+    - 9f0096ecc6a9cf84ab879410d66040d7
+    - 205c9184feb28f34c9e9991382589319
+    - b57448bd34cbcf5418212083ce5a48f1
+    - e9563d16a2dc8b04e9b2246f963fdcdc
+    - 710aaf9ec53c3d1409cd323565ee7743
+    - b172959ae286ea54a800d6c5600465ca
+    - 93e14b3c5126e834fb607721d334ec57
+    - daf13ced67f970d489cdcaf67a5f4267
+    - 4937fe2c3cddca54c982a559d64e8ec4
+    - 1e92fbe9800abd14f86901c2aa808a36
+    - 2fc683d8e04cdf741a69bfd224a13010
+    - db14607fbccd5e240a0f27fc0e7d6477
+    - 4908dbafc13497943b027a8d2ee8cef6
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - b7649b528654d22478fa18a21d0b3d93
+    - cc43d9b531435ef4f934aea9e3f83b2f
+    - 1658eeeecfa317a478a8116f1192201c
+    - 
+    - 
+    - 
+    - 
+    - d4613540e420dea4282128362369a538
+    - 05a2bd01916f2f443b901e404c0b9d4b
+    - f3fc196115869664f9c555e185c599cb
+    - 8cfe8552689854540962d4f36205ec53
+    - c9132de35566eab41aa94858690ffa5b
+    - ab5bfad46231aa4449290f9a4a390e04
+    - 87481d659ceae324cb8aa46f3cb2871f
+    - 534237679034835428607cf3bcd010f6
+    - 860920e98c713e940b225678d99c4698
+    - 6af3f2dc134a2814994c78f0893043d4
+    - aac6494d251dff649826dc4a5ed8ff45
+    - 954661ed9c9eb5945bef89bdad3eab37
+    - 3947f4cf5cddf7a4abff44fbde8b680a
+    - 5ceaa7ff723f71546b6c84ea7b18d5b0
+    spriteTextureTimeStamps:
+    - 1332325728
+    - 1332325736
+    - 1332325732
+    - 1332325732
+    - 1332325726
+    - 1332325734
+    - 1332325728
+    - 1365848173.54223
+    - 1365848173.70223
+    - 1365848173.86223
+    - 1332325710
+    - 1332325730
+    - 1332325726
+    - 1332325724
+    - 1332325722
+    - 1332325720
+    - 1332325720
+    - 1332325718
+    - 1332325728
+    - 1332325738
+    - 1332325734
+    - 1332325732
+    - 1332325726
+    - 1335604426
+    - 1335604416
+    - 1335604420
+    - 1335604420
+    - 1335604424
+    - 1332325738
+    - 1335604424
+    - 1335604432
+    - 1365848196.76226
+    - 1335604416
+    - 1365848197.93226
+    - 1365848197.04226
+    - 1365848197.66226
+    - 1335604422
+    - 1335604426
+    - 1335604432
+    - 1335604400
+    - 1335604414
+    - 1335604424
+    - 1365848197.31226
+    - 1335604418
+    - 1335604420
+    - 1335604256
+    - 1335604280
+    - 1335604284
+    - 1335604286
+    - 1335604282
+    - 1365848168.04222
+    - 1335604292
+    - 1335604290
+    - 1335604288
+    - 1335604292
+    - 1335604430
+    - 1335604416
+    - 1335604428
+    - 1335604428
+    - 1335604422
+    - 1335604422
+    - 1335604426
+    - 1365848196.47226
+    - 1335604430
+    - 1335604282
+    - 1335604294
+    - 1335604284
+    - 1335604282
+    - 1335604286
+    - 1335604290
+    - 1335604286
+    - 1335604290
+    - 1365848168.24222
+    - 1335604288
+    - 1365848184.09224
+    - 1365848184.39224
+    - 1365848188.23225
+    - 1365848189.97225
+    - 1365848190.27225
+    - 1365848190.56225
+    - 1365848190.98225
+    - 1365848191.29225
+    - 1365848191.65225
+    - 1365848191.96225
+    - 1365848193.26225
+    - 1365848167.74222
+    - 1365848192.36225
+    - 1365848192.67225
+    - 1365848192.96225
+    - 1335604294
+    - 1335604300
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1332325744
+    - 1332325718
+    - 1332325740
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1365848184.69224
+    - 1365848186.03224
+    - 1365848185.01224
+    - 1365848185.32224
+    - 1365848185.69224
+    - 1365848187.93225
+    - 1365848186.39224
+    - 1365848187.32224
+    - 1365848187.63225
+    - 1365848189.36225
+    - 1365848189.67225
+    - 1365848188.99225
+    - 1365848188.61225
+    - 1365848186.69224
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Fish5
+    spriteCollectionGUID: 65d7b6f10f81ac34fa647e7f4086f81d
+    spriteCollectionDataGUID: a62a4081621a954479fc330fa8f01839
+    spriteNames:
+    - "\u9B54\u9B3C\u9C7C_13"
+    - "\u9B54\u9B3C\u9C7C_6"
+    - "\u9B54\u9B3C\u9C7C_18"
+    - "\u9B54\u9B3C\u9C7C\u6B7B\u4EA1_5"
+    - "\u9B54\u9B3C\u9C7C_19"
+    - "\u9B54\u9B3C\u9C7C_14"
+    - "\u9B54\u9B3C\u9C7C_7"
+    - "\u9B54\u9B3C\u9C7C_3"
+    - "\u9B54\u9B3C\u9C7C_11"
+    - "\u9B54\u9B3C\u9C7C_17"
+    - "\u9B54\u9B3C\u9C7C_8"
+    - "\u9B54\u9B3C\u9C7C_2"
+    - "\u9B54\u9B3C\u9C7C_20"
+    - "\u9B54\u9B3C\u9C7C\u6B7B\u4EA1_2"
+    - "\u9B54\u9B3C\u9C7C_9"
+    - "\u9B54\u9B3C\u9C7C_21"
+    - "\u9B54\u9B3C\u9C7C\u6B7B\u4EA1_4"
+    - "\u9B54\u9B3C\u9C7C_16"
+    - "\u9B54\u9B3C\u9C7C_15"
+    - "\u9B54\u9B3C\u9C7C_0"
+    - "\u9B54\u9B3C\u9C7C_10"
+    - "\u9B54\u9B3C\u9C7C_22"
+    - "\u9B54\u9B3C\u9C7C_5"
+    - "\u9B54\u9B3C\u9C7C\u6B7B\u4EA1_0"
+    - "\u9B54\u9B3C\u9C7C_4"
+    - "\u9B54\u9B3C\u9C7C\u6B7B\u4EA1_3"
+    - "\u9B54\u9B3C\u9C7C_23"
+    - "\u9B54\u9B3C\u9C7C\u6B7B\u4EA1_1"
+    - "\u9B54\u9B3C\u9C7C_1"
+    - "\u9B54\u9B3C\u9C7C_12"
+    spriteTextureGUIDs:
+    - 52744210d910b9040b8635cdbe03fb8b
+    - aa03db208af67c34eb74cc859fe930c2
+    - d0a41d2015422774bb26e4c01b1e98f7
+    - 169ee360ffd122548a75c37673953375
+    - 01b787b1709366048986537401790b7e
+    - 06d93ed1f2114e844bb851fce724c28c
+    - 9453f3f185862e142bd883362b4a14f8
+    - 23c774121c1fa124d8dccd25bf9ea95d
+    - a2814a62ac6f1f646b8cebab4367de37
+    - 94c82da2acbf5bb40a6bc0a7bf830879
+    - 5c73d1e2f2cefde47a7795bd42c9d154
+    - f24557f294a34fc4c8f3c98d33e28060
+    - 5fb3906374cb9b542b8b4f5c7734f953
+    - 7d596f1472a2f6b4d8330c80dfb88216
+    - 7d8c0274adb2fad40b9bc5fea0ce1182
+    - 85837c05041164747b3bd24a06d56b08
+    - b9335696d66436542b1eb5cdc18479c8
+    - ef7b5707baa0f274c8669e0a9c56f6df
+    - 451ffa07769985f45ad5c3edc4b33de2
+    - 4f52e857855728644bdd332fe0225b06
+    - 6dc79bd7c92b9d44687c6b9e721f2582
+    - e92494287fe5bda4d8260d166036296b
+    - e58f1828eee943c4fb8521cc5830ad78
+    - 2cb57309e5df35c48870bdae67056b7e
+    - a83b93696fb4f9d4d9aa81aa0410a84a
+    - ba28520c94036cc4a837cfbc9c142347
+    - 9db3dc4c03216624a8901c1d0590185c
+    - 268f085c8254a2140bc8cbfb01c39a6c
+    - f3e19aedd7d30194b8e460e69aa0d9f1
+    - f957e41f914c78a40a57ac3256e4eb0a
+    spriteTextureTimeStamps:
+    - 1332004062
+    - 1332004068
+    - 1332004058
+    - 1365848202.28227
+    - 1332004058
+    - 1332004062
+    - 1332004068
+    - 1332004072
+    - 1332004064
+    - 1332004058
+    - 1332004066
+    - 1332004072
+    - 1332004056
+    - 1365848201.62226
+    - 1332004066
+    - 1332004054
+    - 1365848202.06227
+    - 1332004060
+    - 1332004060
+    - 1332004076
+    - 1332004066
+    - 1332004054
+    - 1332004070
+    - 1365848201.16226
+    - 1332004070
+    - 1365848201.84226
+    - 1332004050
+    - 1365848201.39226
+    - 1332004074
+    - 1332004064
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: GameStart1
+    spriteCollectionGUID: afb5b9b6909a6904e81f970f76ac6f26
+    spriteCollectionDataGUID: 581240bcad02d964e963c4689984d165
+    spriteNames:
+    - loadingIcon_4
+    - loadingIcon_6
+    - loadingIcon_9
+    - loadingIcon_5
+    - loadingIcon_1
+    - loadingIcon_2
+    - loadingIcon_7
+    - loadingIcon_8
+    - loadingIcon_0
+    - loadingIcon_3
+    spriteTextureGUIDs:
+    - d8c8f953553fc5948a5a32b4c460e439
+    - accf15a45a6ef0848af88b8f8ca4c6ca
+    - 8a7b5b17b522cd8418af42790feadaab
+    - 3bc43aa7f2422e849ad301c112ca5c2f
+    - 14436b884ee438945801e2ab6d0a871a
+    - ba4505f8024c45f4e922810649feb54f
+    - ed6cd2d93de03324cb21885558ffc893
+    - fc18306b6d2be1a4fb9cc4087bf828a2
+    - 3b05837bd3b2fc64c8e60703c5248649
+    - f662d38fc16a7344494a11a9b739400d
+    spriteTextureTimeStamps:
+    - 1366720062.3608
+    - 1366720062.1508
+    - 1366720061.7208
+    - 1366720062.2608
+    - 1366720062.7208
+    - 1366720062.5708
+    - 1366720062.0108
+    - 1366720061.8808
+    - 1366720062.8308
+    - 1366720062.4708
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: SceneBG1
+    spriteCollectionGUID: 63aaf93cba1308045bc5b8b605b68941
+    spriteCollectionDataGUID: 0732a8ea411e21b4698e485e07eabb0c
+    spriteNames:
+    - "\u6C34\u83493_8"
+    - "\u6C34\u83491_9"
+    - "\u6C34\u83494_8"
+    - "\u6C34\u83495_12"
+    - "\u6C34\u83494_13"
+    - "\u6C34\u83495_10"
+    - "\u6C34\u83495_7"
+    - "\u6C34\u83494_6"
+    - "\u6C34\u83494_2"
+    - "\u6C34\u83492_9"
+    - "\u6C34\u83493_5"
+    - "\u6C34\u83493_11"
+    - "\u6C34\u83494_25"
+    - "\u6C34\u83495_25"
+    - "\u6C34\u83491_0"
+    - "\u6C34\u83495_17"
+    - "\u6C34\u83494_1"
+    - "\u6C34\u83493_2"
+    - "\u6C34\u83492_5"
+    - "\u6C34\u83494_9"
+    - "\u6C34\u83493_3"
+    - "\u6C34\u83495_15"
+    - "\u6C34\u83494_15"
+    - "\u6C34\u83495_5"
+    - "\u6C34\u83492_12"
+    - "\u6C34\u83495_26"
+    - "\u6C34\u83492_8"
+    - "\u6C34\u83492_0"
+    - "\u6C34\u83492_6"
+    - "\u6C34\u83494_18"
+    - "\u6C34\u83491_10"
+    - "\u6C34\u83494_7"
+    - "\u6C34\u83493_9"
+    - "\u6C34\u83495_6"
+    - "\u73CA\u745A2"
+    - "\u6C34\u83491_11"
+    - "\u6C34\u83495_19"
+    - "\u73CA\u745A1"
+    - "\u6C34\u83493_0"
+    - "\u6C34\u83491_1"
+    - "\u6C34\u83495_22"
+    - "\u6C34\u83494_21"
+    - "\u6C34\u83495_2"
+    - "\u6C34\u83493_10"
+    - "\u6C34\u83492_1"
+    - "\u6C34\u83491_5"
+    - "\u6C34\u83493_4"
+    - "\u6C34\u83494_19"
+    - "\u6C34\u83495_4"
+    - "\u6C34\u83495_0"
+    - "\u6C34\u83494_24"
+    - "\u6C34\u83494_26"
+    - "\u6C34\u83494_22"
+    - "\u6C34\u83494_10"
+    - "\u6C34\u83494_16"
+    - "\u6C34\u83493_1"
+    - "\u6C34\u83495_13"
+    - "\u6C34\u83492_4"
+    - "\u6C34\u83491_3"
+    - "\u6C34\u83494_0"
+    - "\u6C34\u83495_14"
+    - "\u6C34\u83494_5"
+    - "\u6C34\u83494_12"
+    - "\u6C34\u83494_11"
+    - "\u6C34\u83494_23"
+    - "\u6C34\u83493_7"
+    - "\u6C34\u83491_8"
+    - "\u6C34\u83493_6"
+    - "\u6C34\u83492_7"
+    - "\u6C34\u83495_9"
+    - "\u6C34\u83494_20"
+    - "\u6C34\u83491_2"
+    - "\u6C34\u83495_16"
+    - "\u6C34\u83495_23"
+    - "\u6C34\u83495_21"
+    - "\u6C34\u83494_17"
+    - "\u6C34\u83495_11"
+    - "\u6C34\u83494_28"
+    - "\u6C34\u83492_11"
+    - "\u6C34\u83495_3"
+    - "\u6C34\u83495_27"
+    - "\u6C34\u83495_18"
+    - "\u6C34\u83494_4"
+    - "\u6C34\u83491_12"
+    - "\u6C34\u83494_14"
+    - "\u6C34\u83494_27"
+    - "\u6C34\u83495_1"
+    - "\u6C34\u83491_4"
+    - "\u6C34\u83494_3"
+    - "\u6C34\u83495_28"
+    - "\u6C34\u83492_10"
+    - "\u6C34\u83495_8"
+    - "\u6C34\u83492_2"
+    - "\u6C34\u83491_7"
+    - "\u6C34\u83493_12"
+    - "\u6C34\u83491_6"
+    - "\u6C34\u83495_24"
+    - "\u6C34\u83492_3"
+    - "\u6C34\u83495_20"
+    spriteTextureGUIDs:
+    - e420e600c36ea17409d1e5e5f8e93aa9
+    - 578bd980434f08b4f86ce37e510fcc95
+    - 066b59b0ae3a3e24592d078fc2991546
+    - 362c58c0287f452498fb2d723aff434c
+    - 0bc97fc026b833c479aab2b78b61bcf3
+    - ba7a59219a7e51648ac535534b52d513
+    - a810fd814c6df844681f9415a98ef2f7
+    - 635e3db10f57d434b8e7439fd22c30c2
+    - eb88541238e91e647b29a63b1a48be2d
+    - 979a3022a59aea74eadf5ed7fa23ef66
+    - 5a096452397948748b45b24bb2860f48
+    - 8b62e472b3fd2aa48b741363cdfd91d1
+    - 67d0ae72e2dbbef4d91b265106dc7329
+    - 69204392804641f429b9d8368ef3dbb8
+    - 8b2d42b2acbf3154abd7207a2fdc380a
+    - 16bd49e23cfa07943a1c101db12488f0
+    - a967f6035e5409649bef389b197dd1cf
+    - c74b22434d0611b47aef7bcb4af2e596
+    - c0dda7a3cd86da2478a08f196775f5a1
+    - b75282b3fb9f50547898b177017941de
+    - c118cd248d02a614594f761d1e8d10ac
+    - 4d5e325402574a24f84a6e504135068c
+    - 6fb6696480bea7444bfe364e9eb093f2
+    - b452de7433612884baf01cedead7cbdb
+    - 8d620894c3ce1d84bb0ba4bdf06a7733
+    - 6d8cf4a4fcabeac43a318301d2db8b29
+    - b17fbda41307a6f49818b8ce895a2520
+    - 9b6c92c44b7c55b4b98ea7bc2e9d41b7
+    - e99e33c4d3577f34a8e90595670f64a0
+    - aa2177d4d3744c449b794304cbb55a3a
+    - 600a6e05c42e08c4eab3c6cbd87b5746
+    - a5f3b9551b3241d43b7102ca6009c62a
+    - f83eed557ea4f4d4898a046e2fa5ef58
+    - 994bcf6531c843846b96d144005ed7ff
+    - ab21fb8553135f94e9cb590556d54f6f
+    - 4225e59573775574e8385fe87a8721e7
+    - 86f87b3657ddefe41b10fb5f76e7ca38
+    - 8b8a3e56a98ebba44a93cbc88fd4128e
+    - f4480db6a3c91e545869098bb1e05ab1
+    - 24b9a827d3aa82848a16d466f66bd7a0
+    - 5973785772f84f9408d69d4016ad3970
+    - e1a85067d5a358f4cbd413f04f383665
+    - 57abf238374015c4087e74f41a459290
+    - 4a53ad387a8b5074aab72f8b840081d5
+    - 045a9f4894e66fb4d8d5ad7363f8412a
+    - d32a8d588e5f5c84aa80f7bf911c877f
+    - 6331e4a85df06f544b7c5635bb237ec8
+    - 4189c5a8510dee341ae8ebb21cf564c7
+    - 78b7f0c81948a194bb07b0515f48bf59
+    - 1337583999d513544a9b05d7948384e0
+    - 00449c39fbb691e4abaf98acab7927bd
+    - d25a0c89e7b5f714298f57ab31932565
+    - ef697d8967bc4b046b9f3419426626a2
+    - d96223b9f3d705c47938a73be04f3d6d
+    - 5463d1f9a9a6ad54b893370de7d854c2
+    - 2b81639a5f838934698cb25c20f43cf0
+    - 29f16eda3623e714ab317e81e230f35c
+    - 074f31ea94c637e48a4d946c017d063a
+    - 30fc92eafdc9ebe4c91e9d0cefcb2000
+    - edda1aeaeb7419b418838bb4c0110f26
+    - 837a892b496a0a14096027e90ef75388
+    - 7ce6d75b8702bb549bb84b8fb92e31fc
+    - 7cf49d6bdd0601248874afd8c488d5bf
+    - 278f90abf054927449b855d37c1ab53e
+    - ab4c5dcb55c935941a1fd77ee226fc77
+    - 6c3e41db58d86234a823597d05ec3728
+    - 1242d93c62651de41b2685f8bc07818d
+    - 08f6bb3ca4085524991ca1a0c876b185
+    - 83fe194c372f6cd429291b5dc65e8d90
+    - 0cf4494c703176047a805e304acf0066
+    - 7c86986cafe241c4d919eddb53d6b929
+    - 0dc204cc19c049848979a947a523cbbb
+    - d4f783dcb2c7ab24c8488401ab5c5448
+    - e16effdc816d60d408dadb84201525c4
+    - 3d07901db0371244a9e3ad9bfbe35c7d
+    - 386f9e1da78b94d469626d71bc51ad65
+    - a512339d08966e246aea0538180ea0d3
+    - 7303d69d3ae1a084482f032ddb902de5
+    - 737c3dadb50a2a64d8aebc41b3c6eb40
+    - 9258bdad0e12c8745ba737540bb6589a
+    - 06cde91e7d5da3e46b020eea524ed499
+    - 8cc98e1e3d449ad4d8d225c6db362dbc
+    - 9cc3b83e88943734c9a7d13176b74702
+    - f287bd3e4cd02b245aae9b8f87526072
+    - a3c7694ee60028b4fabaf8afdd73f783
+    - 5a55196ec47b5c24bb827940ed15b082
+    - 8f531a8e7d687bf4a828a531bfaa49f6
+    - 81dbef9e2b5314e46b4a91cd9a574ed4
+    - f094a2aeabb45524c9631f97fed83969
+    - 9ae3d3ae5c50f7041859f4772cc35179
+    - 40e19ace15c79184eb1f9ef1f4710c84
+    - 6cc0d9dea83b262478c2b2ff1d41d1bb
+    - b8d28fee470c07f4e9982a9d1ad0a175
+    - 2fa8b61f3176f1346a59c6f53a980194
+    - d68b781f9466f7847ba69095cff7c3f0
+    - 0f7dc35ff4abb614fbee44714b94349c
+    - f91c6a5f68e1e95418ffa9e4c528c0d5
+    - 861eec9f887fb3c40b8777dd2b2ee45d
+    - 0c7ccf9fad4f9114f93ecd4475ab8e40
+    spriteTextureTimeStamps:
+    - 1365852184.30607
+    - 1365852172.96605
+    - 1365852182.59607
+    - 1365852177.68606
+    - 1365852181.89607
+    - 1365852178.03606
+    - 1365852178.47606
+    - 1365852182.88607
+    - 1365852183.41607
+    - 1365852170.73605
+    - 1365852184.71607
+    - 1365852183.94607
+    - 1365852180.21606
+    - 1365852175.53606
+    - 1365852174.45606
+    - 1365852176.83606
+    - 1365852183.53607
+    - 1365852185.11607
+    - 1365852171.37605
+    - 1365852182.44607
+    - 1365852184.99607
+    - 1365852177.18606
+    - 1365852181.64607
+    - 1365852178.83606
+    - 1365852170.24605
+    - 1365852175.34606
+    - 1365852170.89605
+    - 1365852172.20605
+    - 1365852171.20605
+    - 1365852181.25606
+    - 1365852172.75605
+    - 1365852182.73607
+    - 1365852184.18607
+    - 1365852178.65606
+    - 1365852174.60606
+    - 1365852172.57605
+    - 1365852176.54606
+    - 1365852174.81606
+    - 1365852157.54603
+    - 1365852174.27606
+    - 1365852176.03606
+    - 1365852180.80606
+    - 1365852179.26606
+    - 1365852184.06607
+    - 1365852172.05605
+    - 1365852173.67605
+    - 1365852184.87607
+    - 1365852181.09606
+    - 1365852178.97606
+    - 1365852179.59606
+    - 1365852180.34606
+    - 1365852180.06606
+    - 1365852180.65606
+    - 1365852182.32607
+    - 1365852181.52607
+    - 1365852185.26607
+    - 1365852177.49606
+    - 1365852171.52605
+    - 1365852173.98605
+    - 1365852183.69607
+    - 1365852177.33606
+    - 1365852183.02607
+    - 1365852182.03607
+    - 1365852182.19607
+    - 1365852180.47606
+    - 1365852184.42607
+    - 1365852173.12605
+    - 1365852184.54607
+    - 1365852171.05605
+    - 1365852178.17606
+    - 1365852180.93606
+    - 1365852174.12605
+    - 1365852177.01606
+    - 1365852175.83606
+    - 1365852176.23606
+    - 1365852181.39607
+    - 1365852177.85606
+    - 1365852179.74606
+    - 1365852170.41605
+    - 1365852179.12606
+    - 1365852175.19606
+    - 1365852176.68606
+    - 1365852183.17607
+    - 1365852172.40605
+    - 1365852181.77607
+    - 1365852179.90606
+    - 1365852179.40606
+    - 1365852173.83605
+    - 1365852183.29607
+    - 1365852175.01606
+    - 1365852170.57605
+    - 1365852178.32606
+    - 1365852171.87605
+    - 1365852173.28605
+    - 1365852183.82607
+    - 1365852173.49605
+    - 1365852175.68606
+    - 1365852171.68605
+    - 1365852176.39606
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: SceneBG2
+    spriteCollectionGUID: dd945ad12de52af4783d51f84ad19d87
+    spriteCollectionDataGUID: 46984ff980355d449b19362ba0fc1784
+    spriteNames:
+    - "\u6D77\u661F2_4"
+    - "\u6D77\u661F2_5"
+    - "\u6D77\u661F2_3"
+    - "\u6D77\u661F2_2"
+    - "\u6D77\u661F2_6"
+    - "\u6D77\u661F2_1"
+    - "\u6D77\u661F2_0"
+    - "\u6D77\u661F\u9ED1_0"
+    - "\u6D77\u661F\u9ED1_10"
+    - "\u6D77\u661F\u9ED1_6"
+    - "\u6D77\u661F\u9ED1_12"
+    - "\u6D77\u661F\u9ED1_14"
+    - "\u6D77\u661F\u9ED1_5"
+    - "\u6D77\u661F\u9ED1_11"
+    - "\u6D77\u661F\u9ED1_2"
+    - "\u6D77\u661F\u9ED1_8"
+    - "\u6D77\u661F\u9ED1_4"
+    - "\u6D77\u661F\u9ED1_13"
+    - "\u6D77\u661F\u9ED1_7"
+    - "\u6D77\u661F\u9ED1_1"
+    - "\u6D77\u661F\u9ED1_9"
+    - "\u6D77\u661F\u9ED1_3"
+    spriteTextureGUIDs:
+    - d9bbd6710725eba4985e70e86658c95b
+    - 2617a92567064cc4597832775b237959
+    - 4c286e656d6083644abd5b90aaa815e6
+    - 8cbf71d5385bc814e9038aec6dfd0ae9
+    - 172ea4797d062c442aba1c60ce4624e8
+    - 15712e890b247c340b731c75b80bbdc9
+    - e4a8bb6d0a8824645bdefb1fb9979306
+    - e65bf8900e59d8941b898436eac01fbf
+    - 0aa6a0b063c99b742addf8210335fdc4
+    - 7343eb421200aca4f9b182dd1d7e5fe7
+    - 36c10726708a82f48a955444438af1b0
+    - 9b0eb976ce9addd4ab2f294fbd4d7dd4
+    - 76f5458671a5ec14b873e67907f6ec63
+    - 1ed106f6b34472b49b30383b473d7f25
+    - 6cab81d8091ff33409484da8d84fd156
+    - 26781859526c4fc4aa15ae113bf18696
+    - 6ddf90a9f3710a644991b3f7a6d0a237
+    - bb8d2df90d057b146b54f9ec58e75489
+    - beb6136a8696ef34bb65f1b0bc4aa2d5
+    - a4e9f68b61182c742b6c1915ad57df01
+    - 5731c7bc2d0e33b409765c1d33e661a3
+    - bad2d36e942f1c14e9611e4f35539647
+    spriteTextureTimeStamps:
+    - 1365850549.21975
+    - 1365850548.65774
+    - 1365850548.97774
+    - 1365850549.32975
+    - 1365850549.10975
+    - 1365850548.75774
+    - 1365850548.85774
+    - 1365850549.45975
+    - 1365850547.21774
+    - 1365850549.53975
+    - 1365850546.88774
+    - 1365850546.34774
+    - 1365850546.44774
+    - 1365850547.13774
+    - 1365850546.61774
+    - 1365850546.70774
+    - 1365850546.53774
+    - 1365850546.96774
+    - 1365850549.38975
+    - 1365850549.61975
+    - 1365850547.04774
+    - 1365850546.79774
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: SceneBG3
+    spriteCollectionGUID: aa30d37b148362f40aa93e64a023f2ac
+    spriteCollectionDataGUID: bacdf7f971dee8944b96cb06586fe99e
+    spriteNames:
+    - "\u6D77\u661F_0"
+    - "\u6D77\u661F_1"
+    - "\u6D77\u661F_8"
+    - "\u6D77\u661F_9"
+    - "\u6D77\u661F_5"
+    - "\u6D77\u661F_3"
+    - "\u6D77\u661F_2"
+    - "\u6D77\u661F_12"
+    - "\u6D77\u661F_4"
+    - "\u6D77\u661F_10"
+    - "\u6D77\u661F_14"
+    - "\u6D77\u661F_7"
+    - "\u6D77\u661F_13"
+    - "\u6D77\u661F_6"
+    - "\u6D77\u661F_11"
+    spriteTextureGUIDs:
+    - a6f242b003086d84b95916a140c01916
+    - e12f1e817eced354cbbad87a94c66079
+    - adc2b3c1e06257f4286b27846630aed9
+    - ce3a0c63155f903448be8b18d6e990a1
+    - fc48c4f31f20f9b4cb2b07db6412df57
+    - 0761d9554b30b97459014cd9a2ac3cfa
+    - b57f35874b15a3f42aaa1e56248de538
+    - dd80bbc8dd8f83b4f8810b1d1bcc76e2
+    - ac1b996947e9e6d4ba0058481096e68b
+    - b3190389c5914fb4fb3b2acf96bf26a0
+    - ebe30f0be893680449dd6eef5a03b538
+    - 7109e64bbf13db3499f264c2c29b6cd4
+    - 3541ea3ed374e1d42a7951bf968e84af
+    - c6d04b4f2a38f6a4ea7e707441441f74
+    - d1230a8fba3f87f458e5582999127847
+    spriteTextureTimeStamps:
+    - 1365850547.97774
+    - 1365850548.17774
+    - 1365850547.78774
+    - 1365850547.29774
+    - 1365850548.54774
+    - 1365850548.26774
+    - 1365850548.43774
+    - 1365850547.38774
+    - 1365850548.35774
+    - 1365850547.46774
+    - 1365850547.70774
+    - 1365850547.86774
+    - 1365850547.54774
+    - 1365850548.08774
+    - 1365850547.62774
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: SceneSweep
+    spriteCollectionGUID: e58c269576628c44fa828a74db91d217
+    spriteCollectionDataGUID: 9fe40da81935fe04faaaa29a39a22c13
+    spriteNames:
+    - SeaWave_2
+    - SeaWave_3
+    - SeaWave_1
+    - SeaWave_0
+    spriteTextureGUIDs:
+    - 0a5ae8f0599d1b44a909524fe821ca8a
+    - fb6c526177e09534f9f5be201ad6749b
+    - b0b27b245a6c6734194c26768ff5449f
+    - a46046c5d429ba14081d34086719dfa7
+    spriteTextureTimeStamps:
+    - 1333272730
+    - 1333272742
+    - 1333272712
+    - 1333272698
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: WeaponCoin
+    spriteCollectionGUID: 54e7fa6036a73c448b4fefc97889194d
+    spriteCollectionDataGUID: 0abc1ab834197b846b3c1f239742a54a
+    spriteNames:
+    - 
+    - 
+    - TargetCircle_0
+    - TargetCircleMoving_0
+    - 
+    - 
+    - 
+    - creditGold_0
+    - creditGold_1
+    - creditGold_2
+    - creditGold_3
+    - creditGold_4
+    - creditGold_5
+    - creditGold_6
+    - creditGold_7
+    - creditGold_8
+    - gold_0
+    - gold_1
+    - gold_2
+    - gold_3
+    - gold_4
+    - gold_5
+    - gold_6
+    - gold_7
+    - gold_8
+    - gold_9
+    - gold_10
+    - gold_11
+    - ring
+    - web-10
+    - web-2
+    - web-1
+    - web-9
+    - web-7
+    - web-12
+    - web-3
+    - web-4
+    - playerCreditBoard
+    - Slice_White
+    - wpBottom
+    - wpCover
+    - wpDeco_1
+    - wpDeco_4
+    - wpDeco_2
+    - wpDeco_3
+    - wpDeco_0
+    - wpDeco_5
+    - wpDeco_8
+    - 
+    - wpDeco_9
+    - lizika_0
+    - pileGold_Roll_0
+    - pileGold_Roll_1
+    - pileGold_Roll_2
+    - pileGold_Roll_3
+    - pileGold_Roll_4
+    - pileGold_Roll_5
+    - pileGold_Roll_6
+    - pileGold_Roll_7
+    - wpDeco_7
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "\u7206\u673A-2"
+    - wpDeco_6
+    - "\u7206\u673A-1"
+    - Slice_ErroBarBG
+    - web-5
+    - web-11
+    - web-6
+    - web-8
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - GunDbl_0
+    - GunQuad_0
+    - GunTri_0
+    - 
+    - GunLiziDbl_0
+    - GunLiziQuad_0
+    - GunLiziTri_0
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - TargetCircle_1
+    - TargetCircle_2
+    - TargetCircle_3
+    - TargetCircle_4
+    - TargetCircle_5
+    - TargetCircle_6
+    - TargetCircle_7
+    - TargetCircle_8
+    - TargetCircle_9
+    - 
+    - TargetCircleMoving_1
+    - TargetCircleMoving_2
+    - TargetCircleMoving_3
+    - TargetCircleMoving_4
+    - TargetCircleMoving_5
+    - TargetCircleMoving_6
+    - TargetCircleMoving_7
+    - TargetCircleMoving_8
+    - TargetCircleMoving_9
+    - BulletTriLizi_1
+    - BulletTriLizi_0
+    - bulletP0_0
+    - bulletP0_1
+    - bulletP1_0
+    - bulletP1_1
+    - bulletP2_0
+    - bulletP2_1
+    - bulletP3_0
+    - bulletP3_1
+    - bulletP4_0
+    - bulletP4_1
+    - bulletP5_0
+    - bulletP5_1
+    - bulletP6_0
+    - bulletP6_1
+    - pileGold_static_1
+    - bigGold_0
+    - bigGold_1
+    - bigGold_2
+    - bigGold_3
+    - bigGold_4
+    - bigGold_5
+    - bigGold_6
+    - bigGold_7
+    - bigGold_8
+    - bigGold_9
+    - bigGold_10
+    - bigGold_11
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - bubble
+    - BulletLizi_0
+    - BulletLizi_1
+    - BulletQuadLizi_0
+    - BulletQuadLizi_1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - CoinStackDigitBG_Green
+    - CoinStackDigitBG_Red
+    - bulletP7_0
+    - bulletP7_1
+    - bulletP8_0
+    - bulletP8_1
+    - bulletP9_0
+    - bulletP9_1
+    - bulletTriP0_0
+    - bulletTriP0_1
+    - bulletTriP1_0
+    - bulletTriP1_1
+    - bulletTriP2_0
+    - bulletTriP2_1
+    - bulletTriP3_0
+    - bulletTriP3_1
+    - bulletTriP4_0
+    - bulletTriP4_1
+    - bulletTriP5_0
+    - bulletTriP5_1
+    - bulletTriP6_0
+    - bulletTriP6_1
+    - bulletTriP7_0
+    - bulletTriP7_1
+    - bulletTriP8_0
+    - bulletTriP8_1
+    - bulletTriP9_0
+    - bulletTriP9_1
+    - bulletQuadP0_0
+    - bulletQuadP0_1
+    - bulletQuadP1_0
+    - bulletQuadP1_1
+    - bulletQuadP2_0
+    - bulletQuadP2_1
+    - bulletQuadP3_0
+    - bulletQuadP3_1
+    - bulletQuadP4_0
+    - bulletQuadP4_1
+    - bulletQuadP5_0
+    - bulletQuadP5_1
+    - bulletQuadP6_0
+    - bulletQuadP6_1
+    - bulletQuadP7_0
+    - bulletQuadP7_1
+    - bulletQuadP8_0
+    - bulletQuadP8_1
+    - bulletQuadP9_0
+    - bulletQuadP9_1
+    spriteTextureGUIDs:
+    - 
+    - 
+    - 4451a3366070c40478c71680759b3ee8
+    - 843cd25b618a0634bbbdad73536748ac
+    - 
+    - 
+    - 
+    - 6fe8ca01c68af884aa6fd42e131d10d4
+    - f97531e00010dc64e8b62ffc5fd19de6
+    - 3ccc9f2ab40261d40bec4c72a65e27fd
+    - c0b0b41b6696c1a479faf82b413117e4
+    - a47c6aa0bfc7c9f48869f7c885fc9e58
+    - 4d6e4dd41cbda8a489c65b38bd32275d
+    - 39730b68030b37f4392ba52140744510
+    - d5ac98bc603ed6f47aba4fc3a5e75dc6
+    - e96c36719d0902b40ae5905d25448c14
+    - 77de956111dd770489a45d3c7d664a42
+    - 6a8e5ff2019b8164b9ba71ed421745cd
+    - 899743bed4e02004c9c5aa18d15c50d3
+    - 3671ffb834c13cd49bb93ebebd21a2e1
+    - 8e7c2db83ef5b354ba0b0b629f3ad0e2
+    - d46f6b35a467dcc4fb279b7aea40a329
+    - c8ed2d2b9ee6c174db06555e2321ce16
+    - 0a7fb26d7ce59a84ab7f58cf118d2383
+    - af12318026ffd864ca2a2fd63b5c015c
+    - 398e55697350d1f47a889c716b670be9
+    - fcb1edd4d389b5c44b21ca43d89e19db
+    - cd28f52b247e76443a1ab2572e9790d4
+    - 1e65b975ab8888e41843768200f8ca5f
+    - 7d0e2910874f1db41a287a2d8d0f25b3
+    - fa413be1f79763d4ab4ee5eaebf2a70d
+    - d67f902244536df4d80290e41a2b2c15
+    - 26f8715226b5f324b8290bdaf55a91c9
+    - 50712ed3f0c252744a5fb8b3d9be6f1e
+    - 300c5b24f62b48b4aa7ccf4dfd568011
+    - 1f144a34fe1d6d74eb4ce273a446a005
+    - 59c1c3d98a27aa14f8152757934d9a7a
+    - 2fb93d58e52e6a643ab6fb697dc206fc
+    - 87c0174ebe0008b43856fa30ad90a299
+    - 371149cc07612bb45a37b7f7344098d3
+    - cd04e5be1c15fb3459351a9a06e2a11b
+    - 1231aa10532435b43af77094fd0fcb0e
+    - 1c65e8926bbe68549a066aab6dd376db
+    - 2d49fb50444437d4889d8251461c6b43
+    - 385bae7ea348bb140bb820981d479f41
+    - 4a646564f77739a45b36045a5bccc231
+    - 667a7a41a0daf544d9d6923c6a7865b0
+    - c12a1a248235d224aa791f1a7df2a51b
+    - 
+    - c1cf50bb74e204d4cb94c906ee55a3d0
+    - ce7da227400905f40ba9b0787deec960
+    - 2ff7c751789341e4da44c56609df56e2
+    - 0fb44caaab6b23245ab144c775bf3bc9
+    - 159aca1b25206174dad04537cde2ca35
+    - c7a2899e9b05dd84cbd7d2dfb7395856
+    - bda2ff855ab3bad43934e017bea425c2
+    - 4222a4526c64dd24fa46392a74c95111
+    - f644670cef938dd4c90c54793883086f
+    - d48c9656742546f4ebc7bd040812a21f
+    - c8d7626f248bc9549b95a245457ea07c
+    - 
+    - 
+    - 
+    - 
+    - 
+    - d97c1dc125d6a3f4fa2aa528b8adbb4a
+    - dd508e05a1817de4aab51c26e3c4d8ef
+    - 015f2e3a5612449489accd1a11a9ca83
+    - b90e1e994374f37479653b2dc713aaf5
+    - d26bfdd9a5c7de0478fc76649b35ba4a
+    - 5bde073d4568c6744990491322b79140
+    - 79b1a14d0687c4149bd4f1db02bb47f8
+    - ffa3bcbe469f12b4bba307af43efe835
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - e0e2f540017178e47a22c4d29ae61d7f
+    - 2335b407dd1dc1a41b4152212de0d444
+    - 4e332c8987966e84a88998a1cbfb3878
+    - 
+    - e757e4063e3f4264eb64d51990ce82eb
+    - cb10ce89ef4c1fb419b0391cc30cf70c
+    - 681a856fe7eb52e4f964e14a5888530a
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 80f2f16a5aefda94d91444eb876ed5a7
+    - 73a9af66ee3fc6741b2274b482f529a0
+    - 0a6eeecbabc2e3e4f8f226cf8e020454
+    - b6e2eddff80bed843971fedfc036f3a3
+    - 4a48655fc17611048b5ebd17498364d1
+    - 2b89fe3ecc62d674fb8f5b1a9901b4a8
+    - 9cc027640fbab4f4a94ee5ba5f0a6c16
+    - afddfc99ad894b848b0312eae7d80914
+    - fb894a313d38bf04fbc29418d8d1fdd1
+    - 
+    - d7feb8a77ecd2264f848474512a12b3c
+    - 4c2e4f64c675f4b41bcfcb7f2c6ed8eb
+    - 600c59812953e6a4c8e9baeb618ba3df
+    - 6587aa8167325a643ac8338c83d3f0a4
+    - 051e98cd54d4f9f4bb0873898fe963f0
+    - 4da7d1fa0970c974486098169769c55b
+    - f2eb60da51595f84dbe1b5c8c1c4ae11
+    - 00cb59edb91e7b1429f1fe63bc50965a
+    - 31833147035a15d478443d964eeb5d5e
+    - 3ff4abbddfd74f74c8c518ee2c30fe7c
+    - 8519a612be36a044fa62b3df7430ea14
+    - 2c0323fde60c7e541a53ba4f097cb66e
+    - 6ad67f847deb92f45814fadcde590617
+    - 4d79504897ac37a41958c46420e706dc
+    - 0a45366fcce81404795db0487a555cd5
+    - 5154ee4e90c20a1468790bd833b5af67
+    - 2ef04f35f41b58b4bae9eefad4d917cd
+    - e0ebf177eb600ad41bd6b2b368239d33
+    - e896ad63a0408f24591c257545f15b93
+    - e68e735db5bade0408bc7c0b2736b0b5
+    - f32b4d04bf3519347b15ec65ac703740
+    - ca38b48f302dffd49a83525f7ea2192d
+    - 993a4a9f74606284cb3543bfb3eee2df
+    - 37d10c86170263542a00a71b1938b6c4
+    - 4b44bbfcc561ef049a1739f0f06d1ed7
+    - 0b4b46e8c302ef146846ee45df9d8022
+    - 7a79a62e9f689dd4d953581e45ff6854
+    - 011fb2be0139b794d8e099c6edad58f9
+    - 893f03f389163c64c9973a5a87ec5001
+    - cc85dd9b2b1e48c4f99d9c81f635b168
+    - 95fc5dabe29208c46befe4fb1c5a9f6d
+    - 9ad6a419f615e1b44b5f6abcb304be68
+    - 47606dd077e077049ac53721f07e059b
+    - a95e0ef3c6ee44b48a71d276c95aed8c
+    - 0d01aca870019c343861383580c13371
+    - b6804a313352ef74c94544ee01a730ce
+    - 94fcaf0af64e68641a9d99f7890a3ee5
+    - 3c8105448a40d9f4eaacb8cc0a6a45da
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 25263d0aca885de4c8525f26482aae68
+    - 9178f0f6b0f0b8444be95038ace7a6de
+    - d968d623dc7899b4495227bcebb5fa0d
+    - 3234830801785a04a9b3d9172b4b4e7f
+    - 9fc2f0a822929f549a2da1592f09679e
+    - 
+    - 
+    - 
+    - 
+    - 
+    - c73e6df80d1e73a479769fe5f9179290
+    - 1e8c0ceccfea0b446819131a4e96d88f
+    - b6168f7699a27d84987161352358922f
+    - b04281bba1ccdf344b65bc7449d6ef99
+    - 3c15081d5a80c0f49930af11a0fc666c
+    - 7b3b557a32cc0b6419d3cb5e25cad4cc
+    - c3a788e3835d94944b839a730f0caa78
+    - fa2724b6b9458cd448e511eff12087c7
+    - 91762056c8b0fc34fa4f9171dd5adc37
+    - 72f1c06d332cb07429efcc1d927bd4c4
+    - b0e76a089c6818947ba31d366c0a0433
+    - fc51ea18b0155894395cc748ae5b175c
+    - 0e5a92e50e772fc439081991d7b15213
+    - 97a63ff6c16125648b26da7fc054737e
+    - 21387d14e7c5b6f48888b6d7a5b26c76
+    - 5a66d45e16aa368429b138a7be8e23fd
+    - 8e5eb3d1b0df0714d89cb35dc7b60c51
+    - 915f9d26113e04a4f8a92bfc64dcd8ae
+    - b7ede57cfb3c5574d90a562b048c74bf
+    - fa62f9bdaf945ae4c94fbb85d60e15f5
+    - d237e8077b0ea524ab417cb065293eae
+    - f90c2bf1ef6a6e543860ffc00ccf2a83
+    - 20543bee3704cc54692f95a03b875ca0
+    - 6b1f0245dc846a44e90ec51a7ff2f6a4
+    - f5a9b3d86b877ee499d8d8daa3c6d98e
+    - b743ec2d951e04e44bbcbd6db77e627e
+    - 85af67c6a7565b44fbda1f150bfe55fd
+    - 2d3550f09f8e0de41a946b28354a1ae9
+    - 9c150456b1dbadb478984792493eab8a
+    - c98f89f6eafc5e84b8a2da6f50cc0935
+    - 410ab634f86e43544a2b6e4cb23c1df0
+    - 1219951e6387bfa4da1accc0283a8d99
+    - a4b58d0ed315f014ba14b26a4ca76090
+    - 96770105acd50644097f1c3fff378874
+    - 3f7a60a587661894bbb867d663b8ccda
+    - f0a0233efbf607c489c7fc5a0844d741
+    - 29e03555a063a3b46b78e6bd747b958c
+    - 3784135dd044a1f408a3813fd2ad23ce
+    - 728dcefd55c76ba4aabb15db72949b2f
+    - 1635e8beb715fbd44b43baf51914d2c9
+    - d298bea4b91970f4c90c5dba4e8f9664
+    - 225cddf5aab77874ea08be790b49c43b
+    - 96ededdc8bb3127459884df4b4460925
+    - b98ad9fc7afcd8d46943af34cb6ef7d4
+    - b7655a036dbaf094784bcffffc938662
+    - a12adbe7817b3c94484ca5ff89e574ea
+    - 3520d759094a7084db05a52091db9730
+    - 99e64a399f834c44ead61ea835b4b876
+    spriteTextureTimeStamps:
+    - 0
+    - 0
+    - 1400082089.156
+    - 1400082089.04679
+    - 0
+    - 0
+    - 0
+    - 1400082088.07859
+    - 1400082088.28139
+    - 1400082087.51699
+    - 1400082087.86019
+    - 1400082088.07859
+    - 1400082088.28139
+    - 1400082087.51699
+    - 1400082087.86019
+    - 1400082088.09419
+    - 1400082087.68859
+    - 1400082087.95379
+    - 1400082088.18779
+    - 1400082088.36039
+    - 1400082087.70419
+    - 1400082087.95379
+    - 1400082088.18779
+    - 1400082088.39159
+    - 1400082087.73539
+    - 1400082087.96939
+    - 1400082088.23459
+    - 1400082088.43839
+    - 1400082110.11975
+    - 1400082078.25818
+    - 1400082078.32058
+    - 1400082078.30498
+    - 1400082078.38298
+    - 1400082078.36738
+    - 1400082078.27378
+    - 1400082078.33618
+    - 1400082078.35178
+    - 1400082088.07859
+    - 1400082088.79719
+    - 1400082089.2496
+    - 1400082089.2184
+    - 1400082089.1248
+    - 1400082089.1404
+    - 1400082089.1248
+    - 1400082089.1248
+    - 1400082089.1248
+    - 1400082089.1404
+    - 1400082089.1404
+    - 0
+    - 1400082089.1404
+    - 1400082087.78219
+    - 1400082087.56379
+    - 1400082087.87579
+    - 1400082088.15659
+    - 1400082088.32819
+    - 1400082087.57939
+    - 1400082087.89139
+    - 1400082088.15659
+    - 1400082088.32819
+    - 1400082089.1404
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400082088.31259
+    - 1400082089.1404
+    - 1400082088.14099
+    - 1400082088.79719
+    - 1400082078.35178
+    - 1400082078.25818
+    - 1400082078.36738
+    - 1400082078.36738
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400082087.54819
+    - 1400082087.93819
+    - 1400082087.50139
+    - 0
+    - 1400082087.61059
+    - 1400082088.37599
+    - 1400082087.54819
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400082089.156
+    - 1400082089.156
+    - 1400082089.156
+    - 1400082089.1716
+    - 1400082089.2028
+    - 1400082089.2028
+    - 1400082089.2028
+    - 1400082089.2028
+    - 1400082089.2028
+    - 0
+    - 1400082089.04679
+    - 1400082089.0624
+    - 1400082089.0624
+    - 1400082089.0624
+    - 1400082089.0624
+    - 1400082089.0624
+    - 1400082089.0936
+    - 1400082089.1092
+    - 1400082089.1092
+    - 1400082088.26579
+    - 1400082088.01619
+    - 1400082088.31259
+    - 1400082087.57939
+    - 1400082087.78219
+    - 1400082088.01619
+    - 1400082088.15659
+    - 1400082088.32819
+    - 1400082087.47019
+    - 1400082087.78219
+    - 1400082087.89139
+    - 1400082088.15659
+    - 1400082088.25019
+    - 1400082087.47019
+    - 1400082087.59499
+    - 1400082087.89139
+    - 1400082087.62619
+    - 1400082087.75099
+    - 1400082088.00059
+    - 1400082088.23459
+    - 1400082088.43839
+    - 1400082087.75099
+    - 1400082088.00059
+    - 1400082088.25019
+    - 1400082088.45399
+    - 1400082087.75099
+    - 1400082088.00059
+    - 1400082088.32819
+    - 1400082087.57939
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400082110.97875
+    - 1400082088.45399
+    - 1400082087.76659
+    - 1400082088.25019
+    - 1400082087.47019
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400082087.81339
+    - 1400082087.78219
+    - 1400082088.01619
+    - 1400082088.26579
+    - 1400082088.34379
+    - 1400082087.59499
+    - 1400082087.79779
+    - 1400082088.01619
+    - 1400082088.04739
+    - 1400082088.26579
+    - 1400082088.34479
+    - 1400082087.62619
+    - 1400082087.81339
+    - 1400082088.06299
+    - 1400082088.17219
+    - 1400082088.34479
+    - 1400082087.50139
+    - 1400082087.81339
+    - 1400082087.93819
+    - 1400082088.17219
+    - 1400082088.28139
+    - 1400082087.50139
+    - 1400082087.62619
+    - 1400082087.93819
+    - 1400082088.07859
+    - 1400082088.28139
+    - 1400082088.36039
+    - 1400082087.67299
+    - 1400082087.79779
+    - 1400082088.04739
+    - 1400082088.15659
+    - 1400082088.34479
+    - 1400082087.48579
+    - 1400082087.79779
+    - 1400082087.93819
+    - 1400082088.17219
+    - 1400082088.26579
+    - 1400082087.48579
+    - 1400082087.62619
+    - 1400082087.93819
+    - 1400082088.04739
+    - 1400082088.26579
+    - 1400082088.34479
+    - 1400082087.62619
+    - 1400082087.81339
+    - 1400082088.06299
+    - 1400082088.17219
+    - 1400082088.36039
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: aFun_FishGather
+    spriteCollectionGUID: 902fe6b417ad49342a1c6714ccf25396
+    spriteCollectionDataGUID: 4cdf3982b390f604db93d05ce6e74e76
+    spriteNames:
+    - "\u9CC4\u9C7CX7"
+    - "\u9CC4_2"
+    - "\u9CC4_7"
+    - "\u9CC4_6"
+    - "\u9CC4_4"
+    - "\u9CC4_5"
+    - "\u9CC4_3"
+    - "\u5956\u52B1\u6A2A\u5E45"
+    - "\u9CC4_1"
+    spriteTextureGUIDs:
+    - 0e6c82b39280cab4fb1b32be4be7f6cb
+    - 478f374ee122b234a8434e354d83f05a
+    - 59f0d779b5f44c7498d084f78bb26aeb
+    - 6db0dd1992721b84db67401552464d25
+    - 6fea33e4e1f9e4640885d4457eefa420
+    - 7adc80e4a7806294d84740cea6470dd4
+    - c3411654198a51241b5c1cf12e545ea8
+    - c99850a74e9e88042b93277d2e25f130
+    - d17e6a2b599fff446989ae09497693c7
+    spriteTextureTimeStamps:
+    - 1366996350.56938
+    - 1366996350.49038
+    - 1366996350.55738
+    - 1366996350.55338
+    - 1366996350.49438
+    - 1366996350.50638
+    - 1366996350.49238
+    - 1366996350.56438
+    - 1366996350.48037
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BulletSplit_sprCollect
+    spriteCollectionGUID: dab056a104eac8646b4d2be69e48f1a6
+    spriteCollectionDataGUID: 19428fe53b71b0949bc7e64ce11ce80d
+    spriteNames:
+    - bulletQuadP2_0
+    - bulletQuadP1_0
+    - bulletQuadP8_0
+    - bulletQuadP4_0
+    - bulletQuadP4_1
+    - bulletQuadP5_0
+    - bulletQuadP7_0
+    - bulletQuadP9_0
+    - bulletQuadP7_1
+    - bulletQuadP3_0
+    - bulletQuadP6_0
+    - bulletQuadP6_1
+    - bulletQuadP0_0
+    - bulletQuadP9_1
+    - bulletQuadP8_1
+    - bulletQuadP5_1
+    - bulletQuadP2_1
+    - bulletQuadP0_1
+    - bulletQuadP1_1
+    - bulletQuadP3_1
+    spriteTextureGUIDs:
+    - 1626ebfaff60b324fae30fc752a08ae9
+    - 19e12fe82e09c7f4f81949df9fee6ebf
+    - 319958b484ba0c34e8fe1edaa9a121ee
+    - 32a6c203e36c47b49b5de4dc2bdc848e
+    - 3e0637546f17639448f3e44cc7704aeb
+    - 513af410afdbed64fad6f1f29b5437f7
+    - 5c5a8d406c5bc014d8143f2cc5b31325
+    - 737711f560af8b44ab9ef60421796bfb
+    - 786e1231a44e6c04dbe1e9253d575a9b
+    - 78a79cf5073313c47b41860cec7f2fc3
+    - 7bf7201eedd176b4e8f96e3f6334f0a7
+    - 919655a28e81d9a40b550d292ccec598
+    - b08c5a138edc0c440810a8c4df62966c
+    - b0fba7aa21eaae341aa315e9798f1961
+    - c1f68e63e5593fa43a711d8b16504556
+    - e0ac8f9dad8143341b3a63957a1e2e6c
+    - eb43f2e3c96c9d741a5c7492075155dd
+    - f5b3522c7a2a21847b552bd3257af8ed
+    - f5c419a3f7e963f48b32d027580c2f16
+    - fcd9b25926d10d4438fbbbbbc9b278c3
+    spriteTextureTimeStamps:
+    - 1368547404.24191
+    - 1368547404.70991
+    - 1368547401.19991
+    - 1368547403.21231
+    - 1368547402.96271
+    - 1368547402.69751
+    - 1368547401.68351
+    - 1368547400.7475
+    - 1368547401.44951
+    - 1368547403.72711
+    - 1368547402.16711
+    - 1368547401.91751
+    - 1368547405.20911
+    - 1368547405.47431
+    - 1368547400.91911
+    - 1368547402.47911
+    - 1368547404.00791
+    - 1368547404.95951
+    - 1368547404.47591
+    - 1368547403.47751
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: HD1
+    spriteCollectionGUID: 87f85df8f778d4c4ebe0ec2b8e2c85ab
+    spriteCollectionDataGUID: 046bcf06e8446f642b7fd4f2cd0c8b13
+    spriteNames:
+    - ui_fish_cupfinish1
+    - ui_fish_bilu2
+    - ui_fish_cupfinish3
+    - ui_fish_back2
+    - ui_fish_beihai2
+    - ui_fish_dizuo4
+    - ui_fish_dizuo6
+    - ui_fish_dizuo3
+    - ui_fish_cupfinish6
+    - ui_fish_cup1
+    - ui_fish_dizuo2
+    - ui_fish_cupfinish2
+    - ui_fish_accoun
+    - ui_fish_dizuo1
+    - ui_fish_cup2
+    - ui_fish_dizuo5
+    - ui_fish_cupfinish4a
+    - ui_fish_bilu1
+    - ui_fish_cupfinish5
+    - ui_fish_beihai1
+    - ui_fish_beihd2
+    - ui_fish_cupfinish_light
+    - ui_fish_back1
+    - ui_fish_cupfinish7
+    - ui_fish_beihd1
+    - ui_fish_cupfinish4
+    - ui_fish_encyclopedia1
+    - "\u9886\u53D6"
+    - 
+    - ui_fish_encyclopedia4
+    - ui_fish_encyclopedia3
+    - 
+    - ui_fish_encyclopedia2
+    - ui_fish_helpbiao3
+    - ui_fish_helpbiao1
+    - ui_fish_helpbiao5
+    - ui_fish_helpbiao4
+    - ui_fish_help1
+    - 
+    - ui_fish_helpbiao2
+    - ui_fish_help2
+    - 
+    - ui_fish_helpbiao6
+    - ui_fish_helpbiao7
+    - ui_fish_lv2
+    - ui_fish_lv1
+    - 
+    - ui_fish_niufl1
+    - 
+    - ui_fish_niufl2
+    - 
+    - 
+    - 
+    - 
+    - ui_fish_register_light
+    - ui_fish_register_light1
+    - Backstage_MainBG_Blackhalf
+    - ui_fish_setup_off-on
+    - ui_fish_daoji(1366x768)
+    - ui_bom4_3
+    - ui_bom2_2
+    - ui_bom3_2
+    - ui_bom2_1
+    - ui_bom2_3
+    - ui_bom3_5
+    - ui_bom3_6
+    - ui_bom4_2
+    - ui_bom4_4
+    - ui_bom3_1
+    - ui_bom3_3
+    - ui_bom4_1
+    - ui_bom3_4
+    - ui_bomsp_1
+    - ui_bomsp_3
+    - ui_bomsp_2
+    - ui_fish_paoshu2(1366x768)
+    - ui_fish_paoshu1(1366x768)
+    - ui_fish_num_7(1366x768)
+    - ui_fish_paoshu3(1366x768)
+    - ui_fish_jian2
+    - ui_fish_jia2
+    - ui_fish_jia1
+    - ui_fish_jian1
+    - ui_fish_start1
+    - ui_fish_start2
+    - ui_fish_start_front
+    spriteTextureGUIDs:
+    - 0571ce6ec3a4ec747950031b28c155a3
+    - 0c7150028c91d614cbadf6f3ffd8e327
+    - 0f10b9eea48a47c44a92c1ed34e0cdde
+    - 1dd7787ba768e504caf18acb37e108a9
+    - 322c841362600724696235fff0e0eb95
+    - 3b0a750dae6147f4fbbdc11824673523
+    - 40528ceb0808fa042b3afbfc09862b79
+    - 4a3c2023c95736d418209a3d5a8975b2
+    - 55bbd72c9be411543a56582a1bcc9047
+    - 571f604874520f548a384b0ffcecc3ec
+    - 5a54ac2e714b1fa4885e6ec13b325ddf
+    - 6d02b3c2bf0e4b247b73acebd1c43066
+    - 7b1fd2c63470d9e4db68705ccdc4f38e
+    - 8182853c48767e945ac7193a56b2d102
+    - 8a5c5817fdf506b4298496470c715918
+    - 8e5bdae94e426b543b5f0252e41deb80
+    - 9d0ba24fc8b68f14d81dd2a9e7c17ca7
+    - ad484d518c640fb45942d60367981717
+    - c2e8cc18f32f02e439293d4f2893ec13
+    - c93031084d020e54ab10683ed05c73e0
+    - dd58f284d0d93a340ba0ea3255a0e2bb
+    - e174b4fdfa8d99d4385f0bb9a1c3f0e7
+    - efaa00ae6ce81934fbaac9898ca9490c
+    - f1bc4a602bc1bb7419b6c6434779fc64
+    - f2a34c2b2615e59419f554e55a2371f9
+    - fa3e25a6091f5214b8582c692bdc0d7d
+    - b6fb6cf6b0140f9428f89d0f04e6761d
+    - e998cf3d96be5914c8504de57277eb9c
+    - 
+    - 8180423bf958d954484e80d806ce6539
+    - a61a750b5ea94054891ee7069b86a86e
+    - 
+    - f56f5fdf010285848be4becb2c45b529
+    - 10726c6b187660b49a05ff8ecdb73f41
+    - 143da470e68087e49bf6093b8a838a1f
+    - 29af3b83d64085f48a8f60f3fb539288
+    - 33f0f5e97218c9041bbdd45d8247b83f
+    - 7b69201e91546f64f9f192ef99f5e68a
+    - 
+    - 8b091a0cb7df0894da1db85603e1991b
+    - ab2c333b706c0e146898caf74ae2eea6
+    - 
+    - 23e6df7c2c6d25641bc8453d6eb7a08a
+    - 948aad14863ef8d4c871706146414388
+    - 0473d44db736d714891ff1811d9baa7a
+    - d2a0ad58c987ceb4c81569764c836670
+    - 
+    - 04a2ec465a9e3d5469855a4994c84808
+    - 
+    - 7448b56184b808c4b90fb754007dec19
+    - 
+    - 
+    - 
+    - 
+    - 47f74fff3f505b94492ace2890b7233a
+    - 9dcb8d3b7e45a6647b4509eb4f79367c
+    - 1b3b817734ca07748a16c91ccb5f14b6
+    - b342582d0ff29694bb333bacc2a30e4f
+    - 603c34307a7b68845b62dbc01b02e5c1
+    - dfdb187128fe5fc4889e8161198a2d06
+    - eb654f718a878d745a6c649e2bce90fe
+    - d6ebb5424bd922442a8d8781c4bd1bbb
+    - 225e31e31a443d443a0628d70fd52ddd
+    - cd8fb2f73ce8705439433a88649d5989
+    - 7aed4669c64ce8b4cad6f5adf5aff851
+    - abd390d978717784aadaa6b436838677
+    - 2aca5e0c712d09e458f4de1cbbd866de
+    - 021de24d7ae26bf49adb41b22961f713
+    - 0ba5507d0a968f3419b5c0ffb4fc8cae
+    - 3a5762cd2dd4c2742ad9d1ebfebd4dc8
+    - db7198fde5cb90141be7b5f219887eec
+    - 6f6bad6f82091984a85493c74342be5e
+    - 77f206c1395fdeb4b9868d72520d783d
+    - efe5406a0973acc459c03f17d71755dd
+    - e561076f8a306f9448fa3a487850106c
+    - 13a913dbd0e83d34aa6c173759104e8a
+    - ae6a76cac09bc7d418c247ef96f45799
+    - aebeba4fb76a0754098c0f3176f854ce
+    - e91eb7dee42aa7b448f7546f1ad1783f
+    - a36801d8b1d61c04b8e157adbab517de
+    - 1276aa0a9aa34a0489cfd3955493398d
+    - d516cf4c084411041b30d2b314b77dd9
+    - 1ee556ff6aa720648b1ac7e4b5edc54a
+    - 8b9b05d283cbbaa42a6778f07a6715d7
+    - bd19c333d37be674cb429608a0c5ab7a
+    - 9cd8a111f68974a43bff3a3aed3331f1
+    spriteTextureTimeStamps:
+    - 1400082044.31571
+    - 1400082033.6685
+    - 1400082032.93529
+    - 1400082033.01329
+    - 1400082040.89631
+    - 1400082043.58151
+    - 1400082031.32749
+    - 1400082033.6841
+    - 1400082048.59412
+    - 1400082032.90409
+    - 1400082049.00072
+    - 1400082048.57852
+    - 1400082048.56292
+    - 1400082045.84552
+    - 1400082040.03831
+    - 1400082045.89232
+    - 1400082043.56591
+    - 1400082049.01632
+    - 1400082044.36251
+    - 1400082033.10689
+    - 1400082032.28009
+    - 1400082048.60972
+    - 1400082048.62532
+    - 1400082032.96649
+    - 1400082046.00152
+    - 1400082040.06951
+    - 1400082031.37429
+    - 1401807873.20019
+    - 0
+    - 1400082045.93912
+    - 1400082043.59711
+    - 0
+    - 1400082033.9347
+    - 1400082041.28631
+    - 1400082048.67212
+    - 1400082048.98512
+    - 1400082045.76752
+    - 1400082044.34691
+    - 0
+    - 1400082033.12249
+    - 1400082048.59412
+    - 0
+    - 1400082033.18489
+    - 1400082041.49011
+    - 1400082044.01931
+    - 1400082035.6361
+    - 0
+    - 1400082043.94131
+    - 0
+    - 1400082046.12632
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400082033.23169
+    - 1400082032.81049
+    - 1400082040.14751
+    - 1400082044.06611
+    - 1400082035.7453
+    - 1400082033.37209
+    - 1400082041.52131
+    - 1400082046.95412
+    - 1400082041.50571
+    - 1400082041.53691
+    - 1400082046.96972
+    - 1400082046.98532
+    - 1400082033.32529
+    - 1400082033.37209
+    - 1400082046.95412
+    - 1400082046.95412
+    - 1400082033.32529
+    - 1400082046.96972
+    - 1400082031.43669
+    - 1400082031.43669
+    - 1400082031.43669
+    - 1400082047.34412
+    - 1400082047.31292
+    - 1400082047.37532
+    - 1400082047.35972
+    - 1400082047.28172
+    - 1400082034.1375
+    - 1400082031.40549
+    - 1400082044.26891
+    - 1400082032.95089
+    - 1400082040.11631
+    - 1400082046.61092
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: HD2
+    spriteCollectionGUID: f0da25f4ee0363e4b83339770acbfb88
+    spriteCollectionDataGUID: f75a4b75133fd0b41bc71359dee93c42
+    spriteNames:
+    - ui_fish_rank1(1366x768)
+    - ui_fish_rank6(1366x768)
+    - ui_fish_register_d1
+    - ui_fish_register_bi
+    - ui_fish_register_d6
+    - ui_fish_set up1
+    - ui_fish_rank7(1366x768)
+    - ui_fish_register_d2
+    - ui_fish_ranking2
+    - ui_fish_register_z5
+    - ui_fish_set up2
+    - ui_fish_register1
+    - ui_fish_rank9(1366x768)
+    - ui_fish_register_star
+    - ui_fish_register3
+    - "\u53D1\u5149\u6846"
+    - ui_fish_register4
+    - ui_fish_rank8(1366x768)
+    - ui_fish_register_light1
+    - ui_fish_register_d3
+    - ui_fish_register_d4
+    - ui_fish_register_d5
+    - ui_fish_rank2(1366x768)
+    - ui_fish_register_z4
+    - ui_fish_ranking1
+    - ui_fish_register2
+    - ui_fish_register_z6
+    - ui_fish_register_z3
+    - ui_fish_rank5(1366x768)
+    - ui_fish_rank3(1366x768)
+    - ui_fish_rank4(1366x768)
+    - ui_fish_register_z2
+    - LOGO
+    - ui_fish_register_z1
+    - ui_fish_register_d7
+    - ui_fish_sound2
+    - ui_fish_setup_jm2
+    - ui_fish_sound1
+    - ui_bomq_l1
+    - ui_fish_setup_jm1
+    - ui_fish_start_front
+    - ui_bomq_3
+    - ui_fish_suonian
+    - ui_fish_yuchang6
+    - ui_bomq_l2
+    - ui_fish_yuchang4
+    - ui_fish_yuchang5
+    - ui_fish_yuchang7
+    - ui_fish_yuchang3
+    - ui_fish_shop1
+    - ui_fish_shop2
+    - ui_bomq_2
+    - ui_bomq_1
+    - LOGO-2
+    - 
+    - ui_fish_reward_front1
+    - ui_fish_end2
+    - ui_fish_end1
+    - ui_fish_end4
+    - ui_fish_end5
+    - ui_fish_end3
+    spriteTextureGUIDs:
+    - a4a8533f6e6600841abdbacf18e6e9b9
+    - 37ec2fe21c305b843baa00a39cedfc2b
+    - 1d1d41c5863976d4e8795fd6d92da8de
+    - 22b4e34fb95ca5443a9c363247d6dfa1
+    - 23268b67c8839f94a856579e0a2fcc4f
+    - 24726d9f3ef94114aa741757bbc0c103
+    - 43c3fd77a75eca44eba17da4198396f1
+    - 38d525af0642eb248b74bed6bae0e0d3
+    - 404b0d6a493ff1d44a0ea6adbd426429
+    - 6cb3a7e18a1a28549af2e4cec3b68de2
+    - 710373fad23fad84cac006787671f616
+    - 75ae3f4776751e3469bbd0efd2416626
+    - 4eac4573dd8bf5942813dda9e781db9c
+    - 7b0bdbf843cfcfb44bfefa91b421ed53
+    - 7d3cf18ad417b11478b4362402ba28e9
+    - 5a75ec5e322fd4647baa53d720aa5687
+    - 90d59b58f1d87854fb2fcd479b9e3b58
+    - 61a786220b0b4014f9938df49e2c1e5f
+    - 9dcb8d3b7e45a6647b4509eb4f79367c
+    - 9f2eaef517a995b4eb07079eac271485
+    - b6a26718e87eb284ab1edc24fc6c36ff
+    - ba20db0528bc75a42a2f31411564a1c1
+    - 760f452e328f13d4ea54dad3998f5516
+    - c59d6ebdc6fa04342add3c512e083205
+    - ccfca2ce3f31cbf439baceea3d56bd0a
+    - ce0d440cec5daa34ab1c6a1358cced0a
+    - cf8412ac0349f8945b1eaf34d61f0907
+    - d93f8cf76006d1d4ea2c6ebe9bde9a22
+    - 98b2167be75f87442beee03511abfc7e
+    - a51f105c0d833fd4cb464c006ebe6a7a
+    - e9198355f3447454d9354aa12747ee9a
+    - e423b512553723244b5d50d782fa9513
+    - 78bbfa17677bf284581d57fb3e20f8fc
+    - f7f85a9ecd61b2247b073306c208c3c8
+    - f8c33c8207ed29a4c99f1d114fd237e2
+    - 1e24489f8d4bc4543b4286059138aba3
+    - 60a1c0351e9229248a97a2077b00769f
+    - 7adec553fa64c6d4293a60319a255b52
+    - 3525b899791ca9c4a8bf4187c3c59c79
+    - 962034a73a434aa4f89b41160dad55e7
+    - 9cd8a111f68974a43bff3a3aed3331f1
+    - 4a011ca31562c8d44b8b37c983b058bb
+    - df0e4e678c72e804f8099e9f8c2a5004
+    - 0991499433f07734e938a8d192506339
+    - 7c9934584c2dc734c8192ea8a9691ecf
+    - 5a958e461959ed347a550772e135894a
+    - 6f7fc7b022c364d4ead25286ded2f6a9
+    - 946889ab6a1162548b0bcf853be47182
+    - 993d877a13d0f0a41a824763a4ec48de
+    - 74576420a0806ea47a5f6e4212c0c4ea
+    - 6ee30efa0ee13954b9fd6fc16920683f
+    - ba57d713820659c469b59a16b59eda4c
+    - e568df616d896284da1985d3a2dd8b32
+    - a2525bd0c6cdbd84582ec4a55ed8ee3c
+    - 
+    - 184e13c0dfd6fe941b0204346676ee50
+    - 7a816d62a93a62647bb8bbd2cd2a7cd5
+    - 405702f5469d2664eafd89e99f27f8fb
+    - c1dc98aa4368e744583e9d8722df6d58
+    - 89b481eafabd3284b9023b2ac37ee759
+    - db3f94db0a809414cae331af6e7d6387
+    spriteTextureTimeStamps:
+    - 1400082051.87213
+    - 1400082051.98233
+    - 1400082045.84552
+    - 1400082033.04449
+    - 1400082049.01632
+    - 1400082043.58151
+    - 1400082052.01353
+    - 1400082048.98512
+    - 1400082032.49849
+    - 1400082044.25331
+    - 1400082045.89232
+    - 1400082033.15369
+    - 1400082052.04473
+    - 1400082043.83111
+    - 1400082045.76752
+    - 1400082051.93553
+    - 1400082048.98512
+    - 1400082052.04473
+    - 1400082032.81049
+    - 1400082033.20049
+    - 1400082043.56591
+    - 1400082045.86112
+    - 1400082051.88773
+    - 1400082039.99151
+    - 1400082046.09512
+    - 1400082041.28631
+    - 1400082047.26612
+    - 1400082032.84169
+    - 1400082051.96673
+    - 1400082051.90333
+    - 1400082051.93553
+    - 1400082047.25052
+    - 1401807873.18459
+    - 1400082044.15971
+    - 1400082033.7153
+    - 1400082032.93529
+    - 1400082045.84552
+    - 1400082048.57852
+    - 1401807873.20019
+    - 1400082041.30191
+    - 1400082046.61092
+    - 1401807873.21579
+    - 1400082040.08511
+    - 1400082033.02889
+    - 1401807873.20019
+    - 1400082044.37811
+    - 1400082048.64092
+    - 1400082040.14751
+    - 1400082040.13191
+    - 1400082044.14411
+    - 1400082047.23492
+    - 1401807873.20019
+    - 1401807873.20019
+    - 1401807873.16899
+    - 0
+    - 1400082047.17252
+    - 1400082047.20372
+    - 1400082044.14411
+    - 1400082039.14811
+    - 1400082044.15971
+    - 1400082032.79489
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: HD3
+    spriteCollectionGUID: 355983bd1fd4b2541a2e67f20ab24ab5
+    spriteCollectionDataGUID: 66c05fe59595a8d4fbdf738c43d4e823
+    spriteNames:
+    - ui_fish_wfront15
+    - ui_fish_wfront4
+    - ui_fish_wfront1a
+    - ui_fish_wfront8
+    - ui_fish_wfront21a
+    - ui_fish_wfront11a
+    - ui_fish_wfront20
+    - ui_fish_wfront12a
+    - ui_fish_wfront19a
+    - ui_fish_wfront6
+    - ui_fish_wfront21
+    - ui_fish_wfront3a
+    - ui_fish_wfront2a
+    - ui_fish_wfront7a
+    - ui_fish_wfront16
+    - ui_fish_wfront9
+    - ui_fish_wfront14a
+    - ui_fish_wfront4a
+    - ui_fish_wfront18a
+    - ui_fish_wfront2
+    - ui_fish_wfront16a
+    - ui_fish_wfront13a
+    - ui_fish_wfront13
+    - ui_fish_wfront8a
+    - ui_fish_wfront7
+    - ui_fish_wfront19
+    - ui_fish_wfront15a
+    - ui_fish_wfront18
+    - ui_fish_wfront5a
+    - ui_fish_wfront9a
+    - ui_fish_wfront6a
+    - ui_fish_wfront17a
+    - ui_fish_wfront1
+    - ui_fish_wfront5
+    - ui_fish_wfront12
+    - ui_fish_wfront20a
+    - ui_fish_wfront17
+    - ui_fish_wfront10
+    - ui_fish_wfront11
+    - ui_fish_wfront10a
+    - ui_fish_wfront14
+    - ui_fish_wfront3
+    - ui_fish_front6
+    - ui_fish_front12a
+    - ui_fish_front1
+    - ui_fish_front19
+    - ui_fish_front11
+    - ui_fish_front6a
+    - ui_fish_front5
+    - ui_fish_front17
+    - ui_fish_front5a
+    - ui_fish_front7a
+    - ui_fish_front21
+    - ui_fish_front9
+    - ui_fish_front3
+    - ui_fish_front14
+    - ui_fish_front4a
+    - ui_fish_front4
+    - ui_fish_front13a
+    - ui_fish_front19a
+    - ui_fish_front8a
+    - ui_fish_front3a
+    - ui_fish_front15a
+    - ui_fish_front20a
+    - ui_fish_front17a
+    - ui_fish_front18a
+    - ui_fish_front20
+    - ui_fish_front2
+    - ui_fish_front18
+    - ui_fish_front9a
+    - ui_fish_front11a
+    - ui_fish_front21a
+    - ui_fish_front8
+    - ui_fish_front16a
+    - ui_fish_front15
+    - ui_fish_front7
+    - ui_fish_front12
+    - ui_fish_front1a
+    - ui_fish_front2a
+    - ui_fish_front10a
+    - ui_fish_front14a
+    - ui_fish_front13
+    - ui_fish_front16
+    - ui_fish_front10
+    - ui_fish_chongzhi1(1366x768)
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - ui_fish_yuchang1
+    - 
+    - 
+    - 
+    - 
+    - ui_fish_shancheng2(1366x768)
+    - ui_fish_shancheng4(1366x768)
+    - ui_fish_shancheng3(1366x768)
+    - ui_fish_shancheng9(1366x768)
+    - 
+    - ui_fish_shancheng8(1366x768)
+    spriteTextureGUIDs:
+    - f1b54a10422f1d0498cab07ef8e0b1e2
+    - 8b444c10fdb302343b44dfbe0ef72178
+    - a8efe3a0620b80f44a1ea7b09e6eb9fa
+    - d9ae4cd0b139c9245a6596b142882410
+    - e0291dd0dacb4ee48b6b2d1fffc37445
+    - e40cffa16f5daa44b9723a67f2be313a
+    - 9686f8928bfddeb419c6fff67ce496f3
+    - 757f1bf2babdf7d4699052f7a8b74d48
+    - 49d1aa13317795542b304017ccef1329
+    - a9fe7253270f34c4b8dc49688f012096
+    - 2f25657305d9231469c5a15a160df186
+    - d228150499ea3cc4e89c7e732d56f252
+    - 34b29834cdfee7342826c4c4e4a305ac
+    - 142cc27446372be4db292a06108bb3f2
+    - 2ea788741a022604abf478c0f4ad753b
+    - a96d4e955ab92e248a4c0db465fda8e1
+    - 352b5e95ee93b41448647e67b153abdd
+    - eb60cbc5b2899774dbfc5ba3d8342501
+    - 8ec75826b7e5b1f459396c9054052332
+    - 50fe7256130682041a6791b88162f401
+    - 297cf35639f6d08478a5873c08a423f4
+    - d94f0d960f2f6e0469c70db5e612f6ee
+    - 25fdefe695a2fd34f998e63a23fa5be2
+    - 14fd370701b26044cb6ae526cf5071a7
+    - 6bb4943706d5887468308feb2d331d8b
+    - 7589c1487e27162469283f130a530fbe
+    - ce8b69685550db242beb183e6e72b978
+    - d55b44d81ddd5734da6a09192c501d34
+    - 9e1300499890a2c44bf7101df9c54d8d
+    - 54b9af2a9de25154d859af99aa013009
+    - 65b5333b580da854f9c83f3011b77fc6
+    - b8956cfb036c20a4c95b6e09dd4746c0
+    - 1a4b524c6a013434b868715e275fb741
+    - 45f3044cb1e625548a76fb373ed0d3f8
+    - 9c6eb96ce8535604e873ddf079b0c983
+    - a80aebccfeae32e4085fca72a9b90571
+    - a24aa00dcdb657f46a2ee3c6b41ef51b
+    - 0db2832d54324574a9d1a0d9e17ff3e6
+    - 27fc3f4d704e1184eb75c503b3593329
+    - 0cf3258dd86b04148a51bcbed8aaab42
+    - 7bf0c3bd4e4897149a55062f68c05915
+    - 7075fb3f3a417ec4b9187c9d4cfdaaee
+    - 91481f4036737c44a96c31eab9853814
+    - dd7dab600df93f24394e362d4118977c
+    - a43ce3c0fbd1b2c46afd550dc623675f
+    - 08643f61748dc16429ae68d8ce152f5b
+    - 80d38fa1def4ad042b6034c25baabeb7
+    - 43eac402690186645a3a4e56c228d0d0
+    - 61f0d7b2af58ff5469497359a2aea517
+    - 54b274c2c41d4884594640b86cfd478b
+    - 35681723fac2a5f4ab2db20f87bcaf8a
+    - 7fc44263230046b4384801bedfce6977
+    - b72025544846c694cbfc8cf17c2dcccd
+    - 6995cb549bb287d4f91c4e75228f5f71
+    - 3d22d705570ec2948936e668aeba053d
+    - 44c115354ebb96845acc91285fe4ced2
+    - e12c355584cae7d43a604bdde30ecb47
+    - 4617deb567524874b90ffcaa72b1aeca
+    - 6e0415d59d982aa4eb2399f298c7f200
+    - 778235b64b8c14c4db338454b593a08b
+    - d73317b649dd0f34cbf5483bcf8b8336
+    - abc061772b27470418be332bd9b8827a
+    - 5fde48c7fe3151b4f9d5ea044ad006d6
+    - b1ccc7e79fb18ea43af36a043148efbd
+    - a40ced187b0834b47b858bc02c0bc4ad
+    - 47e9ec481d8346649ad7ea97df069ca9
+    - 3534c2989620a0e46955b2f6d6460b12
+    - ae1203a87104c8743a0459735fe81328
+    - c73bdd896a752f840b73c0364e0a04f6
+    - f16611d9692e4ea438b5d1610de66f15
+    - 3b1bbf6a4258b304baadae0f80f60a88
+    - ecf5c47abc09db5419f0ddf9e4546324
+    - 6b750c4b4a2c8f743bd3b83dcefe5373
+    - c2abf05bdca17174da441c532e672616
+    - 1e60d66c91e35f44d978edbb99afbc27
+    - 9d83bc9c570f2e2458bb4b2c9a47b022
+    - fa12e6cc05f420944a9cb7fd9e80093a
+    - 5f99890deb0ca064599a46acd1ac8f3e
+    - 24b27c9de39974c4b936d5591568eb6b
+    - 4aaaa36e8af4dae42a494b75bf6779a8
+    - c811ccbebb71a4e46a36c6f77df38fe8
+    - 744692ee6d384f94aa9dde0ed338cb00
+    - 797cc24f5ff7da6448c8a48f2dfcc7be
+    - a21e1c7f86e3a3949b9c535d6f15fb03
+    - 9cd3c0b57e72bc4478bd12b0a977da65
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - e699c18d8161f6d4fb18f08dbdacd372
+    - 
+    - 
+    - 
+    - 
+    - 81c8de161080bbd4d8c741d1569dc00c
+    - ab98efe644fcce04cb135cf139fc4b83
+    - 3f7545085975d4d4fb7a40b33dffaecd
+    - 910dac78225ba9a47bc69a3cf15fe45f
+    - 
+    - abe65f4b30221b744a432cf7c1c8cd9b
+    spriteTextureTimeStamps:
+    - 1400166973.06305
+    - 1400166972.94705
+    - 1400166973.24806
+    - 1400166972.96105
+    - 1400166973.22906
+    - 1400166973.48508
+    - 1400166973.16006
+    - 1400166973.02805
+    - 1400166972.90504
+    - 1400166972.95205
+    - 1400166973.22606
+    - 1400166972.94905
+    - 1400166973.34507
+    - 1400166972.95905
+    - 1400166973.06905
+    - 1400166973.01605
+    - 1400166973.26106
+    - 1400166973.09005
+    - 1400166973.27106
+    - 1400166972.94505
+    - 1400166973.07205
+    - 1400166973.23206
+    - 1400166973.02605
+    - 1400166973.14906
+    - 1400166972.95505
+    - 1400166973.08105
+    - 1400166972.90204
+    - 1400166973.07905
+    - 1400166973.25106
+    - 1400166973.25606
+    - 1400166973.35307
+    - 1400166973.23906
+    - 1400166972.94305
+    - 1400166972.95105
+    - 1400166973.02505
+    - 1400166973.02305
+    - 1400166973.07305
+    - 1400166973.02005
+    - 1400166973.02105
+    - 1400166973.25906
+    - 1400166973.03005
+    - 1400166972.94605
+    - 1400166970.96943
+    - 1400166971.39846
+    - 1400166970.95143
+    - 1400166971.27445
+    - 1400166971.15444
+    - 1400166970.97243
+    - 1400166970.96643
+    - 1400166971.26945
+    - 1400166971.65097
+    - 1400166971.14644
+    - 1400166971.39546
+    - 1400166971.00544
+    - 1400166970.95743
+    - 1400166971.16044
+    - 1400166971.37146
+    - 1400166970.96343
+    - 1400166970.84243
+    - 1400166971.27645
+    - 1400166971.38246
+    - 1400166971.14244
+    - 1400166971.26545
+    - 1400166971.39646
+    - 1400166970.94543
+    - 1400166971.13544
+    - 1400166971.39346
+    - 1400166970.95443
+    - 1400166971.27345
+    - 1400166971.66297
+    - 1400166971.15744
+    - 1400166970.84043
+    - 1400166970.97543
+    - 1400166971.40246
+    - 1400166971.26045
+    - 1400166970.97343
+    - 1400166971.15644
+    - 1400166971.64797
+    - 1400166970.96043
+    - 1400166971.01544
+    - 1400166971.01644
+    - 1400166971.15944
+    - 1400166971.26745
+    - 1400166971.15344
+    - 1400166971.98999
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400166969.90598
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1400166972.44302
+    - 1400166972.44602
+    - 1400166972.44402
+    - 1400166972.49602
+    - 0
+    - 1400166972.49502
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: HD4
+    spriteCollectionGUID: 4953632ce5838db4aa901a23d5565633
+    spriteCollectionDataGUID: cee22914bd801a246971fd205d546d86
+    spriteNames:
+    - ui_fish_jiantou2(1366x768)
+    - ui_fish_jiantou(1366x768)
+    - ui_fish_newshou2(1366x768)
+    - ui_fish_newshou1(1366x768)
+    - 
+    - "\u65B0\u624B\u6559\u7A0B\u7D20\u6750\u56FE1"
+    - "\u65B0\u624B\u6559\u7A0B\u7D20\u6750\u56FE2"
+    - "\u65B0\u624B\u6559\u7A0B\u7D20\u6750\u56FE3"
+    - ui_cj_04
+    - ui_cj_01
+    - ui_cj_05
+    - ui_cj_02
+    - ui_cj_03
+    - 
+    - ui_fish_newshou5(1366x768)
+    - 
+    - 
+    - ui_fish_newshou3(1366x768)
+    - ui_fish_newshou4(1366x768)
+    spriteTextureGUIDs:
+    - a7ea982f0b73d7f4887877657951de72
+    - f4020d95b25dae64d9530e8ea3bd8f21
+    - c15216c8543b14741ac121a51cd71d68
+    - cf0f4068eb332534f8e4ccfcf78916dd
+    - 
+    - a0d411ac13ade934caa8cbc90ebe632c
+    - a285dbac9017cab4bac83b461e10f25d
+    - bd737a7f83e79b947b8abc8d9506f74c
+    - 39577f69c4b331e478572bf7ddc82cbc
+    - b599d8227f114c1479387d99a575b90a
+    - cfba557da39248a4691e2e59ce76920a
+    - d35017b5142fcee42ada82ab4bc097f0
+    - f04a61edde021e3499b6340801fa8a1b
+    - 
+    - ff6b768352dfc9847a60a7810cf012fd
+    - 
+    - 
+    - 91bcc72b158cce84ca3f25e3b0a6247d
+    - a4aa3f1fa4d89604d8550092f0c0fc38
+    spriteTextureTimeStamps:
+    - 1400166969.06613
+    - 1400166969.07713
+    - 1400166969.08213
+    - 1400166969.07913
+    - 0
+    - 1400954259.43859
+    - 1400954268.27709
+    - 1400954277.03859
+    - 1400166971.83898
+    - 1400166971.90699
+    - 1400166971.84098
+    - 1400166971.90999
+    - 1400166971.91299
+    - 0
+    - 1400166969.08713
+    - 0
+    - 0
+    - 1400166969.08413
+    - 1400166969.08513
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

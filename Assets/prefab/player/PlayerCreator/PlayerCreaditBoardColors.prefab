@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PlayerCreaditBoardColors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -329.007965, y: 49.4879532, z: 347.853516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1284c2e17dcace748973613fc5827103, type: 3}
+  m_Name: 
+  Colors:
+  - {r: .184313729, g: .278431386, b: .737254918, a: .698039234}
+  - {r: .764705896, g: .403921574, b: .00784313772, a: .698039234}
+  - {r: .36470589, g: .725490212, b: .282352954, a: .698039234}
+  - {r: .694117665, g: .13333334, b: .741176486, a: .800000012}
+  - {r: .776470602, g: .764705896, b: .141176477, a: .800000012}
+  - {r: .631372571, g: .101960786, b: .0352941193, a: .749019623}
+  - {r: .235294119, g: .690196097, b: .329411775, a: .800000012}
+  - {r: .858823538, g: .176470593, b: .674509823, a: .800000012}
+  - {r: .776470602, g: .141176477, b: .215686277, a: .800000012}
+  - {r: .141176477, g: .721568644, b: .776470602, a: .800000012}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

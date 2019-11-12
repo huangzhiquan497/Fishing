@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: prelude_updownFlow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.415613502, y: .169570446, z: -5.39990234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668b4c02c145a6040ab2084eed41a9e2, type: 3}
+  m_Name: 
+  GenData:
+  - Prefab_Fish: {fileID: 11400004, guid: 6c3d2cf1335d830418f60b77abbc0f8e, type: 2}
+    Delay: 0
+    Elapse: 15
+    IntervalGenerate: .200000003
+    IsUp: 1
+  - Prefab_Fish: {fileID: 11400004, guid: 63efc183a4eb2d44ab3a4e427518971e, type: 2}
+    Delay: 5
+    Elapse: 16
+    IntervalGenerate: .200000003
+    IsUp: 1
+  - Prefab_Fish: {fileID: 11400002, guid: ff6ddfb83b434304a83ea715e37c61f3, type: 2}
+    Delay: 12
+    Elapse: 13
+    IntervalGenerate: .200000003
+    IsUp: 1
+  - Prefab_Fish: {fileID: 11400004, guid: 0a00b3423804a9a4184995108bec9b3b, type: 2}
+    Delay: 20
+    Elapse: 11
+    IntervalGenerate: .200000003
+    IsUp: 1
+  - Prefab_Fish: {fileID: 11400000, guid: e4996ac46879229429be07e89916a49a, type: 2}
+    Delay: 28
+    Elapse: 9
+    IntervalGenerate: .300000012
+    IsUp: 1
+  - Prefab_Fish: {fileID: 11400004, guid: 3dc8b1b32035c3d48bcae4763a481177, type: 2}
+    Delay: 0
+    Elapse: 15
+    IntervalGenerate: .300000012
+    IsUp: 0
+  - Prefab_Fish: {fileID: 11400004, guid: 0738f0a9d90c4e54b95d8c1a863a8efb, type: 2}
+    Delay: 5
+    Elapse: 16
+    IntervalGenerate: .300000012
+    IsUp: 0
+  - Prefab_Fish: {fileID: 11400004, guid: b0ed8bbfa6dc27d4f87d4feaeb8abb5b, type: 2}
+    Delay: 12
+    Elapse: 13
+    IntervalGenerate: .300000012
+    IsUp: 0
+  - Prefab_Fish: {fileID: 11400004, guid: dcd234ea0e335f447b039c9e90049023, type: 2}
+    Delay: 20
+    Elapse: 11
+    IntervalGenerate: .300000012
+    IsUp: 0
+  - Prefab_Fish: {fileID: 11400008, guid: 69bb121a8267c0e4587f8a784251e857, type: 2}
+    Delay: 28
+    Elapse: 9
+    IntervalGenerate: .300000012
+    IsUp: 0
+  TimeLimit: 180
+  FishMoveSpd: 96
+  SpaceToLeftRight: 76.8000031
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

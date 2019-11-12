@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SceneSweep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67de2adac03743c4cb70c64338ac090c, type: 3}
+  m_Name: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: SeaWave_2
+    boundsData:
+    - {x: -1.5, y: 0, z: 0}
+    - {x: 509, y: 768, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 512, y: 768, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -256, y: -384, z: 0}
+    - {x: 253, y: -384, z: 0}
+    - {x: -256, y: 384, z: 0}
+    - {x: 253, y: 384, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .252930164}
+    - {x: .00195410149, y: .501464367}
+    - {x: .751952171, y: .252930164}
+    - {x: .751952171, y: .501464367}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 096e8008aa4ee79479c7dedfedbaf5ab, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0a5ae8f0599d1b44a909524fe821ca8a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: SeaWave_3
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 512, y: 768, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 512, y: 768, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -256, y: -384, z: 0}
+    - {x: 256, y: -384, z: 0}
+    - {x: -256, y: 384, z: 0}
+    - {x: 256, y: 384, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .000977050746}
+    - {x: .00195410149, y: .250976086}
+    - {x: .751952171, y: .000977050746}
+    - {x: .751952171, y: .250976086}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 096e8008aa4ee79479c7dedfedbaf5ab, type: 2}
+    materialId: 0
+    sourceTextureGUID: fb6c526177e09534f9f5be201ad6749b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: SeaWave_1
+    boundsData:
+    - {x: -2.5, y: 0, z: 0}
+    - {x: 507, y: 768, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 512, y: 768, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -256, y: -384, z: 0}
+    - {x: 251, y: -384, z: 0}
+    - {x: -256, y: 384, z: 0}
+    - {x: 251, y: 384, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .503418446}
+    - {x: .497069329, y: .503418446}
+    - {x: .00195410149, y: .878417492}
+    - {x: .497069329, y: .878417492}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 096e8008aa4ee79479c7dedfedbaf5ab, type: 2}
+    materialId: 0
+    sourceTextureGUID: b0b27b245a6c6734194c26768ff5449f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: SeaWave_0
+    boundsData:
+    - {x: -2.5, y: 0, z: 0}
+    - {x: 507, y: 768, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 512, y: 768, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -256, y: -384, z: 0}
+    - {x: 251, y: -384, z: 0}
+    - {x: -256, y: 384, z: 0}
+    - {x: 251, y: 384, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .500977516, y: .503418446}
+    - {x: .996092796, y: .503418446}
+    - {x: .500977516, y: .878417492}
+    - {x: .996092796, y: .878417492}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 096e8008aa4ee79479c7dedfedbaf5ab, type: 2}
+    materialId: 0
+    sourceTextureGUID: a46046c5d429ba14081d34086719dfa7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 096e8008aa4ee79479c7dedfedbaf5ab, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 3bed6006d0f298947b441bcefca48f37, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: e58c269576628c44fa828a74db91d217
+  spriteCollectionName: SceneSweep
+  assetName: 
+  loadable: 0
+  invOrthoSize: .00260416674
+  halfTargetHeight: 384
+  buildKey: 877418609
+  dataGuid: 9fe40da81935fe04faaaa29a39a22c13
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

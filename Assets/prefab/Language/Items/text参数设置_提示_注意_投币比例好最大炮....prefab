@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: "text\u53C2\u6570\u8BBE\u7F6E_\u63D0\u793A_\u6CE8\u610F_\u6295\u5E01\u6BD4\u4F8B\u597D\u6700\u5927\u70AE..."
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.1194592, y: 7.81943226, z: -6.73803711}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 136e695183643f34188932914e2540d4, type: 3}
+  m_Name: 
+  Texts:
+  - "\u6CE8\u610F\uFF1A\u6295\u5E01\u6BD4\u4F8B\u548C\u6700\u5927\u70AE\u6570\u662F\u673A\u5668\u975E\u5E38\u91CD\u8981\u7684\u53C2\u6570\uFF0C\u8BF7\u6839\u636E\u573A\u5730\u7684\u5B9E\u9645\u9700\u8981\u548C\u573A\u5730\u7684\u5B9E\u9645\n\u627F\u53D7\u80FD\u529B\u6765\u642D\u914D\u8C03\u8282\uFF0C\u5E76\u4E0D\u662F\u8D8A\u9AD8\u8D8A\u597D\u3002\r\n\u5EFA\u8BAE\u6295\u5E01\u6BD4\u4F8B\u8BBE\u5B9A\u4E3A1\u5E01100\u5206\u4EE5\u4E0B\uFF08\u4F8B\u5982\uFF1A1\u5E011\u5206\uFF0C1\u5E0110\u5206\uFF0C1\u5E0150\u5206\uFF0C1\u5E01100\u5206\uFF09\u3002\r\n\u6700\u5927\u70AE\u6570\u7684\u8BBE\u5B9A\u5EFA\u8BAE\u53C2\u8003\u503C\uFF1A\r\n\u6295\u5E01\u6BD4\u4F8B1\u6BD41\u5206\u65F6\uFF0C\u6700\u5927\u70AE\u6570\u5EFA\u8BAE\u8BBE\u5B9A\u4E3A10\u5206\r\n\u6295\u5E01\u6BD4\u4F8B1\u6BD410\u5206\u65F6\uFF0C\u6700\u5927\u70AE\u6570\u5EFA\u8BAE\u8BBE\u5B9A\u4E3A100\u5206\r\n\u6295\u5E01\u6BD4\u4F8B1\u6BD450\u5206\u65F6\uFF0C\u6700\u5927\u70AE\u6570\u5EFA\u8BAE\u8BBE\u5B9A\u4E3A500\u5206\r\n\u6295\u5E01\u6BD4\u4F8B1\u6BD4100\u5206\u65F6\uFF0C\u6700\u5927\u70AE\u6570\u5EFA\u8BAE\u8BBE\u5B9A\u4E3A1000\u5206\r\n\u5982\u679C\u573A\u5730\u7684\u5B9E\u9645\u627F\u53D7\u80FD\u529B\u7279\u522B\u5927\u6216\u8005\u7279\u522B\u5C0F\uFF0C\u8BF7\u6839\u636E\u5B9E\u9645\u9700\u6C42\u6765\u642D\u914D\u6295\u5E01\u6BD4\u4F8B\u548C\u6700\u9AD8\u70AE\u6570\u3002"
+  - "Notice: coin ratio and maximum shot are very important parameter, \r\nplease
+    according to the local center type and the boss fortune to set,\r\n it is not
+    better for setting the higher net.\r\nsuggest setting the coin ration is below
+    1 coin 100 scores\r\n(like 1 coin 1 score,1 coin 10 scores,1 coin 50 scores,1
+    coin 100 scores).\r\nplease according the boss fortune to set the coin ration
+    and maximum shot."
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

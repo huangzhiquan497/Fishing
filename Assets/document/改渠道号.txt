@@ -1,0 +1,3 @@
+wiipay.cs
+AndroidManifest.xml
+两个文件

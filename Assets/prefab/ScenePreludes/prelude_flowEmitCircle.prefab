@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: prelude_flowEmitCircle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a733abd84366a54ca1bb2b44c203768, type: 3}
+  m_Name: 
+  FlowerEmitDatas:
+  - PrefabFish: {fileID: 11400004, guid: 3dc8b1b32035c3d48bcae4763a481177, type: 2}
+    NumLine: 60
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400004, guid: 0738f0a9d90c4e54b95d8c1a863a8efb, type: 2}
+    NumLine: 30
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400002, guid: ff6ddfb83b434304a83ea715e37c61f3, type: 2}
+    NumLine: 22
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400004, guid: 0a00b3423804a9a4184995108bec9b3b, type: 2}
+    NumLine: 15
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400004, guid: dcd234ea0e335f447b039c9e90049023, type: 2}
+    NumLine: 12
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400000, guid: e4996ac46879229429be07e89916a49a, type: 2}
+    NumLine: 10
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400008, guid: 69bb121a8267c0e4587f8a784251e857, type: 2}
+    NumLine: 6
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400004, guid: e0e7b93f27a51a846a69e6aca5d8b4e0, type: 2}
+    NumLine: 4
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  - PrefabFish: {fileID: 11400004, guid: 0ef4e29a1aa643c4ca62e1c0717ee6b3, type: 2}
+    NumLine: 3
+    SwimSpd: 153.600006
+    EmitCooldown: .5
+  TimeLimit: 90
+  OffsetYInitPos: -38.4000015
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

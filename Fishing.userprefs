@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Custom_Mobile\script\network\WazClient.cs">
+    <Files>
+      <File FileName="Assets\script\Backstage\Bs_0ParamSetting.cs" Line="672" Column="1" />
+      <File FileName="Assets\script\Backstage\Bs_0ParamSettingSin.cs" Line="663" Column="1" />
+      <File FileName="Assets\script\Backstage\Bs_2CheckBill.cs" Line="72" Column="30" />
+      <File FileName="Assets\script\Backstage\Ctrl_MsgBox.cs" Line="121" Column="1" />
+      <File FileName="Assets\TK2DROOT\tk2d\Editor\tk2dEditorUtility.cs" Line="18" Column="6" />
+      <File FileName="Assets\_Custom_Mobile\script\Moudle_scene.cs" Line="236" Column="22" />
+      <File FileName="Assets\script\core\Fish.cs" Line="281" Column="90" />
+      <File FileName="Assets\script\core\SoundManager.cs" Line="17" Column="2" />
+      <File FileName="Assets\_Custom\script\MobileInterface.cs" Line="113" Column="28" />
+      <File FileName="Assets\_Custom_Mobile\script\network\WazClient.cs" Line="58" Column="27" />
+      <File FileName="Assets\_Custom_Mobile\script\network\WazNetwork.cs" Line="12" Column="3" />
+      <File FileName="Assets\_Custom_Mobile\script\network\Packager.cs" Line="395" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

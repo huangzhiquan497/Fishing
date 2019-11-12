@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ScenePreludeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d0f94da41e2024d9d8811be25e01ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab_preludes:
+  - {fileID: 11400518, guid: 470fd98c2637d0542a4c0947c09d403c, type: 2}
+  - {fileID: 11400518, guid: 5cc4b0afd3c4c9842a9c8100af53b6dd, type: 2}
+  - {fileID: 11400750, guid: f10d0e60ced530444bf2e1366c0f293a, type: 2}
+  - {fileID: 11400356, guid: 335fc4201cb057843b84ff52a5962d13, type: 2}
+  - {fileID: 11400198, guid: 3119a0d12a0d6db478339e614d87fe49, type: 2}
+  - {fileID: 11400198, guid: 13405d8f3088d934baa6a1f467490bfd, type: 2}
+  - {fileID: 11400452, guid: 13ebc39312ee22540b74577f12195daa, type: 2}
+  - {fileID: 11400452, guid: eac93ee2eaa62174ba9a017fa67ec55d, type: 2}
+  - {fileID: 11401336, guid: 1b7a711bcb472a844bcf5c25234012e1, type: 2}
+  - {fileID: 11401330, guid: aaf25289b5b0b074eabb8ec32057f4a9, type: 2}
+  - {fileID: 11400000, guid: 47feb5d848070144382bcdddcedac982, type: 2}
+  - {fileID: 11400052, guid: a51b5b90d79374949bc6f5b3ccfbb933, type: 2}
+  - {fileID: 11400000, guid: 909455501c6b2534485660bad3717405, type: 2}
+  - {fileID: 11400000, guid: a60f7cc94aeeeca42beddea540679474, type: 2}
+  - {fileID: 11400000, guid: 4b31705900980884ba1ef2ffb11765f7, type: 2}
+  IsRandomPrelude: 1
+  PreludeIdxStart: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
